@@ -62,3 +62,22 @@ Nov. 2015
 1. *ca_province_territory.csv* for the indexes: *CA_PROVINCE_TERRITORY*, *CA_PROVINCE_TERRITORY_CODE*
 2. *mx_estado.csv* for the indexes: *MX_ESTADO*, *MX_ESTADO_CODE*
 
+Apr. 2019
+-------------
+Add:
+- Currencies_ActiveCodes.csv active codes currencies from https://en.wikipedia.org/wiki/ISO_4217, double checked with https://www.currency-iso.org/en/home/tables/table-a1.html
+- Currencies_Crypto.csv cryptocurrencies from https://en.wikipedia.org/wiki/ISO_4217
+- Currencies_Historical.csv historical currency codes from https://en.wikipedia.org/wiki/ISO_4217
+- Currencies_NoISO.csv currencies without ISO 4217 currency codes from https://en.wikipedia.org/wiki/ISO_4217
+- Currencies_Unofficial.csv unofficial currency codes from https://en.wikipedia.org/wiki/ISO_4217
+- firstname_full.csv merge from remaining items from previous file firstname_cleaned.csv 2015 + data from https://github.com/MatthiasWinkelmann/firstname-database (deduplicated + transform "+" occurrences by "-", " " and "")
+- industry_FR_ROME.csv  from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
+- industry_Profession_Trade_FR.csv from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
+- industry_sector_FR_ROME.csv from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
+- job_titles_FR_ROME.csv from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
+- job_titles_US_Extended.csv (merge of previous file job_title_cleaned.csv, deduplicated + data from https://data.ny.gov/Government-Finance/Title-and-Salary-Listing/t3vp-5tka, KEEP all cases <job_title> 1, <job_title> 2, etc.)
+- job_titles_US_Simplified.csv (merge of previous file job_title_cleaned.csv, deduplicated + data from https://data.ny.gov/Government-Finance/Title-and-Salary-Listing/t3vp-5tka, DELETE all cases <job_title> 1, <job_title> 2, etc. but keep one for all)
+
+Update:
+- country-codes.csv source replaced by https://www.iso.org/obp/ui/#iso:code:3166:EH and wikipedia for synonyms addition
+- us_counties.csv merge previous version 2015 with data from https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents + add synonyms for cases "St. -> Saint" and "Ste. -> Sainte"

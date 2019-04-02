@@ -1,0 +1,108 @@
+﻿Code;Num;Decimal;Currency;From;Until;Replaced by
+ADF;...;2;Andorran franc;1960;01/01/1999;EUR
+ADP;20;0;Andorran peseta;1869;01/01/1999;EUR
+AFA;4;;Afghan afghani;1925;2003;AFN
+AOK;...;0;Angolan kwanza;08/01/1977;24/09/1990;AON (AOA)
+AON;24;0;Angolan new kwanza;25/09/1990;30/06/1995;AOR (AOA)
+AOR;982;0;Angolan kwanza readjustado;01/07/1995;30/11/1999;AOA
+ARL;...;2;Argentine peso ley;01/01/1970;05/05/1983;ARP (ARS)
+ARP;32;2;Argentine peso argentino;06/06/1983;14/06/1985;ARA (ARS)
+ARA;32;2;Argentine austral;15/06/1985;31/12/1991;ARS
+ATS;40;2;Austrian schilling;1945;01/01/1999;EUR
+AZM;31;0;Azerbaijani manat;15/08/1992;01/01/2006;AZN
+BAD;70;2;Bosnia and Herzegovina dinar;01/07/1992;04/02/1998;BAM
+BEF;56;2;Belgian franc;1832;01/01/1999;EUR
+BGL;100;2;Bulgarian lev A/99;1962;31/08/1999;BGN
+BOP;...;2;Bolivian peso;01/01/1963;01/01/1987;BOB
+BRB;...;2;Brazilian cruzeiro A/86;1970;28/02/1986;BRC (BRL)
+BRC;76;2;Brazilian cruzado A/89;28/02/1986;15/01/1989;BRN (BRL)
+BRN;76;2;Brazilian cruzado novo A/90;16/01/1989;15/03/1990;BRE (BRL)
+BRE;76;2;Brazilian cruzeiro A/93;15/03/1990;01/08/1993;BRR (BRL)
+BRR;987;2;Brazilian cruzeiro real A/94;01/08/1993;30/06/1994;BRL
+BYB;112;2;Belarusian ruble;1992;31/12/1999;BYR (BYN)
+BYR;974;0;Belarusian ruble;01/01/2000;30/06/2016;BYN
+CSD;891;2;Serbian dinar;03/07/2003;19/06/2006;RSD
+CSK;200;;Czechoslovak koruna;10/04/1919;08/02/1993;CZK/SKK (CZK/EUR)
+CYP;196;2;Cypriot pound;1879;01/01/2006;EUR
+DDM;278;;East German mark;21/06/1948;01/07/1990;DEM (EUR)
+DEM;276;2;German mark;1948;01/01/1999;EUR
+ECS;218;0;Ecuadorian sucre;1884;29/02/2000;USD
+ECV;983;.;Ecuador Unidad de Valor Constante (funds code);1993;29/02/2000;—
+EEK;233;2;Estonian kroon;1992;01/01/2010;EUR
+ESA;996;;Spanish peseta (account A);?;1978 to 1981;ESP (EUR)
+ESB;995;;Spanish peseta (account B);?;1994-12;ESP (EUR)
+ESP;724;0;Spanish peseta;1869;01/01/1999;EUR
+FIM;246;2;Finnish markka;1860;01/01/1999;EUR
+FRF;250;2;French franc;1960;01/01/1999;EUR
+GNE;...;;Guinean syli;1971;31/12/1985;GNF
+GHC;288;0;Ghanaian cedi;1967;01/07/2007;GHS
+GQE;...;;Equatorial Guinean ekwele;1975;31/12/1985;XAF
+GRD;300;2;Greek drachma;1954;01/01/2001;EUR
+GWP;624;;Guinea-Bissau peso;1975;31/05/1997;XOF
+HRD;191;;Croatian dinar;23/12/1991;30/05/1994;HRK
+IEP;372;2;Irish pound;1938;01/01/1999;EUR
+ILP;...;3, 2;Israeli lira;1948;20/02/1980;ILR (ILS)
+ILR;...;2;Israeli shekel;24/02/1980;31/12/1985;ILS
+ISJ;...;2;Icelandic old króna;1922;30/06/1981;ISK
+ITL;380;0;Italian lira;1861;01/01/1999;EUR
+LAJ;...;;Lao kip;1965;31/12/1979;LAK
+LTL;440;2;Lithuanian litas;1993;01/01/2015;EUR
+LUF;442;2;Luxembourg franc;1944;01/01/1999;EUR
+LVL;428;2;Latvian lats;1992;01/01/2013;EUR
+MAF;...;–;Moroccan franc;1921;1960–1976;MAD
+MCF;...;2;Monegasque franc;1960;31/03/1995;FRF(1995-04-01 - 1998-12-31), EUR (1999-01-01 - Present)
+MGF;450;2;Malagasy franc;01/07/1963;01/01/2005;MGA
+MKN;...;;Old Macedonian denar A/93;1991;30/06/1993;MKD
+MLF;466;;Mali franc;?;01/01/1984;XOF
+MVQ;...;;Maldivian rupee;?;31/12/1981;MVR
+MRO;478;;Mauritanian Ouguiya;29/06/1973;01/01/2018;MRU
+MXP;...;;Mexican peso;?;31/03/1993;MXN
+MZM;508;0;Mozambican metical;1980;30/06/2006;MZN
+MTL;470;2;Maltese lira;1972;01/01/2006;EUR
+NIC;...;2;Nicaraguan córdoba;1988;31/10/1990;NIO
+NLG;528;2;Dutch guilder;1810s;01/01/1999;EUR
+PEH;...;;Peruvian old sol;1863;01/02/1985;PEI (PEN)
+PEI;604;;Peruvian inti;01/02/1985;01/10/1991;PEN
+PLZ;616;;Polish zloty A/94;30/10/1950;31/12/1994;PLN
+PTE;620;0;Portuguese escudo;22/05/1911;01/01/1999;EUR
+ROL;642;;Romanian leu A/05;28/01/1952;2005;RON
+RUR;810;2;Russian ruble A/97;1992;31/12/1997;RUB
+SDD;736;;Sudanese dinar;08/06/1992;10/01/2007;SDG
+SDP;...;;Sudanese old pound;1956;08/06/1992;SDD (SDG)
+SIT;705;2;Slovenian tolar;08/10/1991;01/01/2005;EUR
+SKK;703;2;Slovak koruna;08/02/1993;01/01/2007;EUR
+SML;...;0;San Marinese lira;1864;31/08/1992;ITL (1992-09-01 - 1998-12-31), EUR (1999-01-01 - Present)
+SRG;740;;Suriname guilder;?;2004;SRD
+STD;678;;São Tomé and Príncipe Dobra;1977;01/04/2018;STN
+SUR;...;;Soviet Union ruble;1961;26/12/1991;RUR (RUB/AMD/AZN/BYN/EUR/GEL/KZT/KGS/MDL/TJS/TMT/UAH/UZS)
+TJR;762;;Tajikistani ruble;10/05/1995;30/10/2000;TJS
+TMM;795;0;Turkmenistani manat;01/11/1993;31/12/2008;TMT
+TPE;626;;Portuguese Timorese escudo;1959;1976;USD
+TRL;792;0;Turkish lira A/05;1843;31/12/2005;TRY
+UAK;804;;Ukrainian karbovanets;01/10/1992;01/09/1996;UAH
+UGS;...;;Ugandan shilling A/87;?;31/12/1987;UGX
+USS;998;2;United States dollar (same day) (funds code);?;28/03/2014;—
+UYP;...;;Uruguay peso;1896;01/07/1975;UYN
+UYN;...;;Uruguay new peso;01/07/1975;01/03/1993;UYU
+VAL;...;0;Vatican lira;1929;31/12/1994;ITL (1995-01-01 - 1998-12-31), EUR (1999-01-01 - Present)
+VEB;862;2;Venezuelan bolívar;?;01/01/2008;VEF (VES)
+VEF;937;2;Venezuelan bolívar fuerte;?;20/08/2018;VES
+XEU;954;.;European Currency Unit;13/03/1979;31/12/1998;EUR
+XFO;...;;Gold franc (special settlement currency);1803;2003;XDR
+XFU;...;.;UIC franc (special settlement currency);?;07/11/2013;EUR
+YDD;720;;South Yemeni dinar;?;11/06/1996;YER
+YUD;...;2;Yugoslav dinar A/1989;01/01/1966;31/12/1989;YUN (MKD/RSD/EUR/HRK/BAM)
+YUN;890;2;Yugoslav dinar A/1992;01/01/1990;30/06/1992;YUR (MKD/RSD/EUR/HRK/BAM)
+YUR;...;2;Yugoslav dinar A/1993-09;01/07/1992;30/09/1993;YUO (MKD/RSD/EUR/HRK/BAM)
+YUO;...;2;Yugoslav dinar A/1993-12;01/10/1993;31/12/1993;YUG (MKD/RSD/EUR/HRK/BAM)
+YUG;...;2;Yugoslav dinar A/1994;01/01/1994;23/01/1994;YUM (MKD/RSD/EUR/HRK/BAM)
+YUM;891;2;Yugoslav dinar A/2003;24/01/1994;02/07/2003;CSD (MKD/RSD/EUR/HRK/BAM)
+ZAL;991;.;South African financial rand (funds code);01/09/1985;13/03/1995;—
+ZMK;894;2;Zambian kwacha;16/01/1968;01/01/2013;ZMW
+ZRZ;180;3;Zairean zaire;1967;1993;ZRN (CDF)
+ZRN;180;2;Zairean new zaire;1993;1997;CDF
+ZWC;...;2;Rhodesian dollar;17/02/1970;1980;ZWD (USD/Zimbabwean bonds)
+ZWD;716;2;Zimbabwean dollar A/06;18/04/1980;31/07/2006;ZWN (USD/Zimbabwean bonds)
+ZWN;942;2;Zimbabwean dollar A/08;01/08/2006;31/07/2008;ZWR (USD/Zimbabwean bonds)
+ZWR;935;2;Zimbabwean dollar A/09;01/08/2008;02/02/2009;ZWL (USD/Zimbabwean bonds)
+ZWL;932;2;Zimbabwean dollar A/10;03/02/2009;12/04/2009;USD/Zimbabwean bonds

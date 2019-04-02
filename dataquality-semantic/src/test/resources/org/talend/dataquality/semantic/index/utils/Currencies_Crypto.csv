@@ -1,0 +1,11 @@
+﻿Code;Num;Decimal;Currency;Notes
+DASH;_;8;Dash;
+ETH;_;18;Ether;ETH conflicts with ISO 4217 because ET stands for Ethiopia.
+VTC;_;8;Vertcoin;
+XBC;_;8;Bitcoin Cash;XBC conflicts with European Unit of Account 9 (E.U.A.-9)
+XBT|BTC;-;8;Bitcoin;BTC conflicts with ISO 4217 because BT stands for Bhutan.
+XLM;_;8;Stellar Lumen;
+XMR;_;12;Monero;
+XRP;_;6;XRP;
+ZEC;_;8;Zcash;
+BTU;_;8;Bitcoin Unlimited;BTU conflicts with ISO 4217 because BT stands for Bhutan.

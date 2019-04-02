@@ -1,4 +1,4 @@
-ISO_639_1_Code;ISO_639_2_Code_B_T;English_name_of_Language;French_name_of_Language;German_name_of_Language;Local_name_of_Language
+﻿ISO_639_1_Code;ISO_639_2_Code_B_T;English_name_of_Language;French_name_of_Language;German_name_of_Language;Local_name_of_Language
 aa;aar;Afar;afar;Danakil-Sprache;Afar 
 ab;abk;Abkhazian;abkhaze;Abchasisch;Аҧсуа 
 af;afr;Afrikaans;afrikaans;Afrikaans;Afrikaans 
@@ -10,7 +10,7 @@ an;arg;Aragonese;aragonais;Aragonesisch;Aragonés
 hy;arm|hye;Armenian;arménien;Armenisch;Հայերեն 
 as;asm;Assamese;assamais;Assamesisch;অসমীয়া 
 av;ava;Avaric;avar;Awarisch;Авар 
-ae;ave;Avestan;avestique;Avestisch 
+ae;ave;Avestan;avestique;Avestisch ;
 ay;aym;Aymara;aymara;Aymará-Sprache;Aymar 
 az;aze;Azerbaijani;azéri;Aserbeidschanisch;Azərbaycanca|آذربايجان 
 ba;bak;Bashkir;bachkir;Baschkirisch;Башҡорт 
@@ -98,7 +98,7 @@ li;lim;Limburgan|Limburger|Limburgish;limbourgeois;Limburgisch;Limburgs
 ln;lin;Lingala;lingala;Lingala;Lingála 
 lt;lit;Lithuanian;lituanien;Litauisch;Lietuvių 
 lb;ltz;Luxembourgish|Letzeburgesch;luxembourgeois;Luxemburgisch;Lëtzebuergesch 
-lu;lub;Luba-Katanga;luba-katanga;Luba-Katanga-Sprache
+lu;lub;Luba-Katanga;luba-katanga;Luba-Katanga-Sprache;
 lg;lug;Ganda;ganda;Ganda-Sprache;Luganda 
 mk;mac|mkd;Macedonian;macédonien;Makedonisch;Македонски 
 mh;mah;Marshallese;marshall;Marschallesisch;Kajin Majel|Ebon 
@@ -116,7 +116,7 @@ nd;nde;Ndebele, North|North Ndebele;ndébélé du Nord;Ndebele-Sprache (Simbabwe
 ng;ndo;Ndonga;ndonga;Ndonga;Oshiwambo 
 ne;nep;Nepali;népalais;Nepali;नेपाली 
 nn;nno;Norwegian Nynorsk|Nynorsk, Norwegian;norvégien nynorsk|nynorsk, norvégien;Nynorsk;Norsk|nynorsk
-nb;nob;Bokmål, Norwegian| Norwegian Bokmål;norvégien bokmål;Bokmål 
+nb;nob;Bokmål, Norwegian| Norwegian Bokmål;norvégien bokmål;Bokmål ;
 no;nor;Norwegian;norvégien;Norwegisch;Norsk|bokmål|riksmål 
 ny;nya;Chichewa|Chewa|Nyanja;chichewa|chewa|nyanja;Nyanja-Sprache;Chi-Chewa 
 oc;oci;Occitan;occitan;Okzitanisch;Occitan 

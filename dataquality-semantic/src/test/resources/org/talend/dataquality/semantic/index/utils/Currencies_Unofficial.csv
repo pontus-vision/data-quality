@@ -1,0 +1,13 @@
+﻿Code;Num;Decimal;Currency;Locations using this currency
+CNH;-;2;Chinese yuan (when traded offshore);Hong Kong
+GGP;–;2;Guernsey pound;Guernsey
+IMP;–;2;Isle of Man pound also Manx pound;Isle of Man
+JEP;–;2;Jersey pound;Jersey
+KID;–;2;Kiribati dollar;Kiribati
+NIS;–;2;Israeli new shekel;Israel
+NTD;–;2;New Taiwan dollar;Taiwan
+PRB;–;2;Transnistrian ruble;Transnistria (The code conflicts with ISO-4217 because PR stands for Puerto Rico. X should have been used for the first letter.)
+RMB;-;2;Renminbi (Chinese) yuan;Mainland China (from its official name RenMinBi)
+SLS;–;2;Somaliland shilling;Somaliland
+TVD;–;2;Tuvalu dollar;Tuvalu
+ZWB;-;2;Zimbabwean bonds;Zimbabwe
