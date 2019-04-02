@@ -64,7 +64,14 @@ Nov. 2015
 
 Apr. 2019
 -------------
+Deleted:
+- airport-code-wiki.csv
+- airport-name-wiki.csv
+- firstname_cleaned.csv
+- job_title_cleaned.csv
+
 Add:
+- airport-name-code.csv from http://ourairports.com/data/, includes small, medium, and airports, seaplane bases, and closed airports, all having valid IATA code
 - Currencies_ActiveCodes.csv active codes currencies from https://en.wikipedia.org/wiki/ISO_4217, double checked with https://www.currency-iso.org/en/home/tables/table-a1.html
 - Currencies_Crypto.csv cryptocurrencies from https://en.wikipedia.org/wiki/ISO_4217
 - Currencies_Historical.csv historical currency codes from https://en.wikipedia.org/wiki/ISO_4217
