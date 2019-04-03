@@ -8793,3 +8793,272 @@
 44867;X-TRPM;closed;W. H. Bramble Airport;16.758899688720703;-62.15639877319336;;NA;MS;MS-U-A;Plymouth;no;TRPM;MNI;;;http://en.wikipedia.org/wiki/W.H._Bramble_Airport;
 30591;XMUC;closed;Flughafen München-Riem;48.137798309;11.69029999;;EU;DE;DE-BY;Munich;no;EDDM;MUC;;;http://en.wikipedia.org/wiki/Munich-Riem_airport;
 27748;YLZR;closed;Lizard Island Airport;-14.673273;145.454571;;OC;AU;AU-QLD;;no;YLZI;LZR;;;;
+11728;4TE8;closed;Ben Bruce Memorial Airpark;30.3209991455;-94.07350158690001;44;NA;US;US-TX;Evadale;no;4TE8;EVA;4TE8;;;
+321987;ABW;closed;Abau Airport;-10.1956;148.7389;10;OC;PG;PG-CPM;Abau;no;;ABW;;;https://en.wikipedia.org/wiki/Abau_Airport;
+299315;AGGQ;closed;Ontong Java Atoll Airstrip;-5.515;159.527777778;10;OC;SB;SB-ML;Ontong Java Atoll;no;AGGQ;OTV;;;;Luangiua, Lord Howe Atoll
+299321;AHT;closed;Amchitka Army Airfield;51.3777777778;179.259166667;215;NA;US;US-AK;Amchitka Island;no;PAHT;AHT;;;http://en.wikipedia.org/wiki/Amchitka_Army_Airfield;Constantine Harbor
+301759;ANH;closed;Anuha Island Resort Airport;-9.00138888889;160.225;22;OC;SB;SB-CE;Anhua Island;no;;ANH;;;;
+313771;AOA;closed;Aroa Airport;-9.0254;146.8;20;OC;PG;PG-CPM;Agevairu;no;;AOA;;;;
+35400;AR-0006;closed;[Duplicate] Brigadier Hector Ruiz Airport;-37.4333000183;-61.8833007812;228;SA;AR;AR-B;Coronel Suarez;no;;CSZ;;;;
+35409;AR-0015;closed;Saenz Peña Airport;-26.815799713134766;-60.448299407958984;20;SA;AR;AR-H;Presidencia Roque Sáenz Peña;no;;SZQ;;;;
+301832;ARX;closed;Asbury Park Neptune Air Terminal;40.2193055556;-74.0908333333;95;NA;US;US-NJ;Asbury Park;no;;ARX;;;;Schlossbach Field
+30687;AU-BCK;closed;[Duplicate] Bolwarra Airport;-17.388299942;144.169006348;;OC;AU;AU-QLD;Bolwarra;no;;BCK;;;;
+30697;AU-BFC;closed;[Duplicate] Bloomfield Airport;-15.8736000061;145.330001831;66;OC;AU;AU-QLD;Bloomfield;no;;BFC;;;;
+30803;AU-BVW;closed;[Duplicate] Batavia Downs Airport;-12.6591997147;142.675003052;;OC;AU;AU-QLD;Batavia Downs;no;;BVW;;;;
+30849;AU-CQP;closed;[Duplicate] Cape Flattery Airport;-14.9709997177;145.311004639;;OC;AU;AU-QLD;Cape Flattery;no;;CQP;;;;
+30859;AU-CTR;closed;[Duplicate] Cattle Creek Airport;-17.607000351;131.548995972;;OC;AU;AU-NT;Cattle Creek;no;;CTR;;;;
+31570;AU-HAT;closed;[Duplicate] Heathlands Airport;-11.7369003296;142.57699585;;OC;AU;AU-QLD;Heathlands;no;;HAT;;;;
+31578;AU-HIG;closed;[Duplicate] Highbury Airport;-16.4244003296;143.145996094;;OC;AU;AU-QLD;Highbury;no;;HIG;;;;
+31766;AU-KOH;closed;[Duplicate] Koolatah Airport;-15.888600349399999;142.438995361;;OC;AU;AU-QLD;Koolatah;no;;KOH;;;;
+31791;AU-KYF;closed;[Duplicate] Yeelirrie Airport;-27.2768993378;120.096000671;;OC;AU;AU-WA;Yeelirrie;no;;KYF;;;;
+31931;AU-MNW;closed;[Duplicate] Macdonald Downs Airport;-22.444000244099996;135.199005127;;OC;AU;AU-NT;Macdonald Downs;no;;MNW;;;;
+31969;AU-MUP;closed;[Duplicate] Mulga Park Airport;-25.860000610399997;131.649993896;;OC;AU;AU-NT;Mulga Park;no;;MUP;;;;
+32032;AU-NKB;closed;[Duplicate] Noonkanbah Airport;-18.4946994781;124.851997375;;OC;AU;AU-WA;Noonkanbah;no;;NKB;;;;
+32674;AU-WRW;closed;[Duplicate] Warrawagine Airport;-20.8442001343;120.702003479;;OC;AU;AU-WA;Warrawagine;no;;WRW;;;;
+32677;AU-WSY;closed;[Duplicate] Whitsunday Airstrip;-20.27611;148.755;60;OC;AU;AU-QLD;Airlie Beach;no;;WSY;;;;
+313134;AWR;closed;Awar Airport;-4.124;144.853;35;OC;PG;PG-MPM;Awar;no;;AWR;;;;
+301768;AYZ;closed;Zahn's Airport;40.71;-73.4;;NA;US;US-NY;Amityville;no;;AYZ;;;;
+313775;BAP;closed;Baibara Airport;-10.3432;149.6414;15;OC;PG;PG-CPM;Nabai;no;;BAP;;;;Baibara
+301857;BCJ;closed;Baca Grande Airfield;37.964777777799995;-105.776666667;7620;NA;US;US-CO;Crestone;no;;BCJ;;;;
+312756;BEA;closed;Bereina Airport;-8.64;146.5083;58;OC;PG;PG-CPM;Bereina Mission;no;;BEA;;;;Inauaia
+301881;BER;closed;Berlin Brandenburg Airport (U.C.);52.351388888900004;13.493888888899999;157;EU;DE;DE-BR;Berlin;no;EDDB;BER;;http://preview.berlin-airport.de/en/travellers/;http://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport;
+312829;BGDU;closed;Dundas Airport;76.525;-68.8;200;NA;GL;GL-U-A;Pituffik;no;BGDU;DUN;;;;
+312757;BIJ;closed;Biliau Airport;-5.578;146.339;50;OC;PG;PG-MPM;Biliau;no;;BIJ;;;;
+301807;BIZ;closed;Bimin Airport;-5.28611111111;142.033055556;5775;OC;PG;PG-SAN;;no;;BIZ;BMN;;;
+302045;BNQ;closed;Baganga airport;7.611944444440001;126.568888889;42;AS;PH;PH-DAO;Baganga;no;;BNQ;;;;
+312758;BNV;closed;Boana Airport;-6.433;146.825;2950;OC;PG;PG-MPL;Boana;no;;BNV;;;;
+313293;BNZ;closed;Banz Airport;-5.807;144.623;5150;OC;PG;PG-JI;Banz;no;;BNZ;;;;
+312759;BOQ;closed;Boku Airport;-6.5427;155.3419;225;OC;PG;PG-NSB;Boku;no;;BOQ;;;;
+299171;BR-0015;closed;Tucumã Airport;-6.7488;-51.1478;1060;SA;BR;BR-PA;Tucumã;no;;TUZ;;;;
+32402;BR-SWM;closed;Suia-Missu Airport;-11.671699523925781;-51.43470001220703;;SA;BR;BR-MT;Alto Boa Vista;no;;SWM;;;;
+312520;BRG;closed;Whitesburg Municipal Airport;37.2219;-82.8742;1985;NA;US;US-KY;Whitesburg;no;;BRG;;;;Isom Airport, Letcher County
+311040;BVP;closed;Bolovip Airstrip;-5.3633;141.655;4990;OC;PG;PG-WPD;Bolovip;no;;BVP;;;;Bolobip
+315551;BZS;closed;Buzzards Point Seaplane Base;38.863;-77.011;0;NA;US;US-DC;Washington;no;;BZS;;;;
+39699;CA-0053;closed;Blissville Airport;45.605633;-66.543678;60;NA;CA;CA-NB;Blissville;no;;YYS;;;;CH3, CCH3
+39741;CA-0095;closed;Clinton Creek Airport;64.475545;-140.741748;2040;NA;CA;CA-YT;Clinton Creek Mine;no;;YLM;;;;
+39758;CA-0112;closed;Deception Airport;62.112314446199996;-74.554681778;;NA;CA;CA-QC;;no;;YGY;;;;
+39847;CA-0201;closed;Lady Franklin Point Airport;68.4753126151;-113.224411011;5;NA;CA;CA-NU;;no;CYUJ;YUJ;;;;
+39859;CA-0213;closed;Lupin Airport;65.7666702271;-111.25;1608;NA;CA;CA-NU;Lupin Mine;no;CYWO;YWO;;;http://en.wikipedia.org/wiki/Lupin_Airport;
+39887;CA-0241;closed;Moose Lake Airport;53.7062589637;-100.343971252;;NA;CA;CA-MB;;no;;YAD;CJB4;;;
+39891;CA-0245;closed;Mould Bay Airport;76.2392;-119.3216;30;NA;CA;CA-NT;Prince Patrick Is.;no;;YMD;YMD;;;
+39920;CA-0274;closed;Paradise River Airport;53.43;-57.233333587646;;NA;CA;CA-NL;;no;;YDE;CDF4;;;
+39959;CA-0313;closed;Rivers Airport;50.010055763699995;-100.313930511;1550;NA;CA;CA-MB;;no;;YYI;;;;CYYI
+39968;CA-0322;closed;Saglek Airport;58.475119;-62.655373;269;NA;CA;CA-NL;RCAF Station Saglek;no;;YSV;;;http://en.wikipedia.org/wiki/Saglek_Airport;CYSV
+40024;CA-0378;closed;Terrace Bay Airport;48.81197898719999;-87.09943771360001;950;NA;CA;CA-ON;Terrace Bay, ON;no;CYTJ;YTJ;;;;
+40058;CA-0412;closed;Winisk Airport;55.2242;-85.1174;32;NA;CA;CA-ON;Winisk;no;;YWN;;;https://en.wikipedia.org/wiki/Winisk,_Ontario;
+28142;CAB5;closed;Bronson Creek Airport;56.681098938;-131.087005615;396;NA;CA;CA-BC;Bronson Creek;no;;YBM;;;https://en.wikipedia.org/wiki/Bronson_Creek_Airport;CAB5, AB5, Snip Gold Mine
+28155;CAC3;closed;Alice Arm/Silver City Seaplane Base;55.4667015076;-129.483001709;0;NA;CA;CA-BC;;no;CAC3;ZAA;CAC3;;http://en.wikipedia.org/wiki/Alice_Arm/Silver_City_Water_Aerodrome;
+28381;CAN8;closed;Port Simpson Seaplane Base;54.5667;-130.432999;0;NA;CA;CA-BC;Lax Kw'alaams;no;CAN8;YPI;CAN8;;https://en.wikipedia.org/wiki/Port_Simpson_Water_Aerodrome;AN8
+28315;CAW7;closed;Mayne Island Seaplane Base;48.8666992188;-123.300003052;;NA;CA;CA-BC;Miners Bay;no;CAW7;YAV;CAW7;;http://en.wikipedia.org/wiki/Mayne_Island_Water_Aerodrome;
+700;CBM5;closed;Telegraph Creek Airport;57.916698;-131.117007;1100;NA;CA;CA-BC;Telegraph Creek;no;CBM5;YTX;CBM5;;http://en.wikipedia.org/wiki/Telegraph_Creek_Airport;BM5
+312536;CLC;closed;Clear Lake Metroport;29.5555;-95.1383;25;NA;US;US-TX;Clear Lake;no;;CLC;;;;
+301195;CN-0011;closed;[Duplicate] Gu-Lian Airport;52.913917;122.427768;1836;AS;CN;CN-23;Mohe;yes;ZYMH;OHE;;;http://en.wikipedia.org/wiki/Mohe_Gulian_Airport;
+28283;CTU4;closed;Lac Gagnon Seaplane Base;46.117500305176;-75.115303039551;700;NA;CA;CA-QC;Duhamel;no;CTU4;YGA;CTU4;;https://en.wikipedia.org/wiki/Lac_Gagnon_Water_Aerodrome;
+311044;CVR;closed;Hughes Airport;33.975;-118.417;17;NA;US;US-CA;Culver City;no;;CVR;;;http://en.wikipedia.org/wiki/Hughes_Airport_(California);
+35128;CY-NIC;closed;Nicosia International Airport;35.1507987976;33.2787017822;;AS;CY;CY-02;Nicosia;no;LCNC;NIC;;;http://en.wikipedia.org/wiki/Nicosia_International_Airport;RAF Nicosia, Lefkosia, NIC.OLD
+28111;CYCV;closed;Cartierville Airport;45.516700744628906;-73.7166976928711;120;NA;CA;CA-QC;Montreal;no;CYCV;YCV;;;http://en.wikipedia.org/wiki/Cartierville_Airport;
+1956;CYXD;closed;Edmonton City Centre (Blatchford Field) Airport;53.5724983215;-113.521003723;2202;NA;CA;CA-AB;Edmonton;no;CYXD;YXD;CYXD;http://corporate.flyeia.com/general_aviation/edmonton_city_centre;http://en.wikipedia.org/wiki/Edmonton_City_Centre_(Blatchford_Field)_Airport;YEA, YXD
+27308;CYXI;closed;Bonnechere Airport;45.66310119628906;-77.60279846191406;595;NA;CA;CA-ON;Killaloe;no;CYXI;YXI;;;http://en.wikipedia.org/wiki/Killaloe/Bonnechere_Airport;
+312615;DABP;closed;Skikda Airport;36.8641;6.9516;27;AF;DZ;DZ-21;Skikda;no;DABP;SKI;;;http://en.wikipedia.org/wiki/Skikda_Airport;Philippeville Airfield
+46085;DCR;closed;Decatur HI-Way Airfield;40.837548;-84.862464;842;NA;US;US-IN;Decatur;no;;DCR;DCR;;http://en.wikipedia.org/wiki/Decatur_Hi-Way_Airport;
+329130;DE-0419;closed;Heidelberg Army Helicopter Base;49.392397;8.651935;;EU;DE;DE-BW;Heidelberg;no;ETIE;HDB;;;;
+302109;DGG;closed;Fishermans Airfield;-9.5128;147.0505;24;OC;PG;PG-CPM;Daugo Island;no;;DGG;;;http://en.wikipedia.org/wiki/Fishermans_Airfield;
+312960;DOS;closed;Dios Airport;-5.5609;154.9616;335;OC;PG;PG-NSB;Dios;no;;DOS;;;;
+302542;DPK;closed;Deer Park Airport;40.76;-73.31;75;NA;US;US-NY;Deer Park;no;;DPK;;;;
+312809;DPU;closed;Dumpu Airport;-5.858;145.705;870;OC;PG;PG-MPM;Dumpu;no;;DPU;;;;
+302473;DWS;closed;Lake Buena Vista STOLport;28.3994444444;-81.5712777778;94;NA;US;US-FL;Walt Disney World;no;;DWS;;;http://en.wikipedia.org/wiki/Walt_Disney_World_Airport;Walt Disney World Airport
+2215;EDDI;closed;Berlin-Tempelhof International Airport;52.472999572753906;13.403900146484375;167;EU;DE;DE-BE;Berlin;no;EDDI;THF;;;http://en.wikipedia.org/wiki/Tempelhof_International_Airport;BER
+2287;EDWB;closed;Bremerhaven Airport;53.506943;8.572778;10;EU;DE;DE-HB;Bremerhaven;yes;EDWB;BRV;;;https://en.wikipedia.org/wiki/Bremerhaven_Airport;
+28636;EDWD;closed;Lemwerder Airport;53.144699;8.62444;20;EU;DE;DE-HB;Lemwerder;no;EDWD;XLW;;;https://de.wikipedia.org/wiki/Flugplatz_Lemwerder;
+2405;EGDL;closed;RAF Lyneham;51.5051;-1.99343;513;EU;GB;GB-ENG;Lyneham;no;EGDL;LYE;;http://www.raf.mod.uk/raflyneham/;http://en.wikipedia.org/wiki/RAF_Lyneham;
+2420;EGHD;closed;Plymouth City Airport;50.422798;-4.10583;476;EU;GB;GB-ENG;Plymouth;yes;EGHD;PLH;;http://www.plymouthairport.com/;http://en.wikipedia.org/wiki/Plymouth_City_Airport;
+29144;EGHK;closed;Penzance Heliport;50.128101;-5.51845;14;EU;GB;GB-ENG;Penzance;yes;EGHK;PZE;;http://www.brit-int.co.uk/Penzanceheliport.html;http://en.wikipedia.org/wiki/Penzance_Heliport;
+316475;EGKM;closed;RAF West Malling;51.27;0.4;308;EU;GB;GB-ENG;West Malling;no;EGKM;WEM;;;https://en.wikipedia.org/wiki/RAF_West_Malling;Maidstone Airport, Kingshill, Kings Hill
+2437;EGMH;closed;Kent International Airport;51.342201;1.34611;178;EU;GB;GB-ENG;Manston;no;EGMH;MSE;;http://www.kentinternationalairport-manston.com/;http://en.wikipedia.org/wiki/Kent_International_Airport;RAF Manston, Ramsgate, EGUM, Manston Airport
+313840;EGMK;closed;Lympne Airport;51.08;1.013;351;EU;GB;GB-ENG;Ashford;no;EGMK;LYM;;;http://en.wikipedia.org/wiki/Lympne_Airport;RAF Lympne
+2482;EGTG;closed;Bristol Filton Airport;51.5194015503;-2.59083008766;226;EU;GB;GB-ENG;Bristol;no;EGTG;FZO;;http://www.bristolfilton.co.uk/;http://en.wikipedia.org/wiki/Bristol_Filton_Airport;RAF Filton
+30508;EGUA;closed;RAF Upper Heyford;51.9375;-1.2488900423;436;EU;GB;GB-ENG;Upper Heyford;no;EGUA;UHF;;;http://en.wikipedia.org/wiki/RAF_Upper_Heyford;
+29697;EGVJ;closed;RAF Bentwaters;52.1274986267;1.43472003937;85;EU;GB;GB-ENG;Woodbridge;no;EGVJ;BWY;;;http://en.wikipedia.org/wiki/RAF_Bentwaters;
+29652;EGWZ;closed;RAF Alconbury;52.374401092499994;-0.219722002745;157;EU;GB;GB-ENG;Huntingdon;no;EGWZ;AYH;;;http://en.wikipedia.org/wiki/RAF_Alconbury;
+30597;EGXB;closed;Binbrook Airfield;53.4467010498;-0.209999993443;;EU;GB;GB-ENG;Grimsby;no;EGXB;GSY;;;http://en.wikipedia.org/wiki/RAF_Binbrook;Waltham, RAF Binbrook
+2502;EGXJ;closed;RAF Cottesmore;52.735699;-0.648769;461;EU;GB;GB-ENG;Cottesmore;no;EGXJ;OKH;;http://www.raf.mod.uk/rafcottesmore/;http://en.wikipedia.org/wiki/RAF_Cottesmore;
+2525;EHSB;closed;Soesterberg Air Base;52.1273002625;5.27618980408;66;EU;NL;NL-UT;Soesterberg;yes;EHSB;UTC;;;http://en.wikipedia.org/wiki/Soesterberg_Air_Base;ACvZ, Amsterdamsche Club voor Zweefvliegen
+2527;EHVB;closed;Valkenburg Naval Air Base;52.166099548300004;4.41794013977;1;EU;NL;NL-ZH;Leiden;no;EHVB;LID;;;http://en.wikipedia.org/wiki/Valkenburg_Naval_Air_Base;
+29217;EICB;closed;Castlebar Airport;53.8484;-9.28037;;EU;IE;IE-MO;Castlebar;no;EICB;CLB;;;;
+28117;ENFB;closed;Oslo, Fornebu Airport;59.89580154418945;10.617199897766113;;EU;NO;NO-03;Oslo;no;ENFB;FBU;;;http://en.wikipedia.org/wiki/Oslo_Airport%2C_Fornebu;
+2632;EPSK;closed;Redzikowo Air Base;54.47890090942383;17.107500076293945;217;EU;PL;PL-PM;;no;EPSK;OSP;;;;
+2677;ESNH;closed;Hudiksvall Airport;61.7681007385;17.0806999207;95;EU;SE;SE-X;Hudiksvall;no;ESNH;HUV;;;;
+314608;ETAS;closed;Sembach Air Base;49.507;7.866;1050;EU;DE;DE-RP;Sembach;no;ETAS;SEX;;;http://en.wikipedia.org/wiki/Sembach_Kaserne;
+2756;ETUO;closed;Gütersloh Air Base;51.922798;8.30633;236;EU;DE;DE-NW;Gütersloh;no;ETUO;GUT;;;http://en.wikipedia.org/wiki/RAF_G%C3%BCtersloh;RAF Gütersloh, Princess Royal Barracks Gütersloh
+312885;EWY;closed;RAF Greenham Common;51.379;-1.281;400;EU;GB;GB-ENG;Berkshire;no;EGVI;EWY;;;http://en.wikipedia.org/wiki/RAF_Greenham_Common;
+312922;FAL;closed;Falcon State Airport;26.5856;-99.13985;358;NA;US;US-TX;Roma;no;;FAL;;;;
+312913;FLE;closed;Fort Lee Army Airfield;37.284;-77.3448;96;NA;US;US-VA;Fort Lee;no;;FLE;;;;
+312904;FSN;closed;Haley Army Airfield;42.221;-87.817;685;NA;US;US-IL;Fort Sheridan;no;;FSN;;;;
+307572;GB-0070;closed;Hoy/Longhope Airfield;58.791779;-3.216076;30;EU;GB;GB-SCT;Orkney Isle;no;;HOY;;;;
+330395;GDA;closed;Gounda Airport;9.316703;21.185;1378;AF;CF;CF-BB;Gounda;no;;GDA;;;https://en.wikipedia.org/wiki/Gounda_Airport;
+29758;GMMC;closed;Anfa Airport;33.5532989502;-7.661389827730001;200;AF;MA;MA-CAS;Casablanca;no;GMMC;CAS;;;http://en.wikipedia.org/wiki/Casablanca-Anfa_Airport;
+319725;GRH;closed;Garuahi Airport;-10.225149;150.487667;50;OC;PG;PG-MBA;Garuahi;no;;GRH;;;;Taupota Mission
+312857;GWN;closed;Gnarowein Airport;-6.555;146.248;525;OC;PG;PG-MPL;Gnarowein;no;;GWN;;;;
+34923;GWW;closed;Gatow Airport;52.474399566699994;13.1380996704;161;EU;DE;DE-BE;Spandau;no;EDBG;GWW;;;http://en.wikipedia.org/wiki/Gatow_Airport;General-Steinhoff Kaserne, Luftwaffenmuseum der Bundeswehr, RAF Gatow
+316528;HADB;closed;Degah Bur Airport;8.234;43.5673;3550;AF;ET;ET-SO;Degah Bur;no;HADB;DGC;;;;
+313430;HUKC;closed;Kololo Airstrip;0.3262;32.594;3939;AF;UG;UG-102;Kampala;no;HUKC;KLA;;;http://en.wikipedia.org/wiki/Kampala_Airport;Kampala  Airport
+313285;ILX;closed;Ileg Airport;-5.4917;145.8022;60;OC;PG;PG-MPM;Ileg;no;;ILX;;;;
+312962;IUS;closed;Inus Airport;-5.7568;155.1498;50;OC;PG;PG-NSB;Inus;no;;IUS;;;;
+313268;IVH;closed;Ivishak Airport;69.4066;-148.2881;677;NA;US;US-AK;Ivishak River;no;;IVH;;;;
+313333;JPB;closed;Pan Am Building Heliport;40.7533;-73.9765;870;NA;US;US-NY;New York;no;;JPB;;;;
+29963;KAAP;closed;Andrau Airpark;29.722499847399998;-95.58830261230001;79;NA;US;US-TX;Houston;no;KAAP;AAP;AAP;;http://en.wikipedia.org/wiki/Andrau_Airpark;
+19265;KAIY;closed;Atlantic City Municipal Bader Field;39.3600006104;-74.4561004639;8;NA;US;US-NJ;Atlantic City;no;KAIY;AIY;AIY;;http://en.wikipedia.org/wiki/Bader_Field;
+29882;KAYE;closed;Ft Devens Moore Army Air Field;42.56999969482422;-71.60279846191406;269;NA;US;US-MA;;no;KAYE;AYE;;;http://en.wikipedia.org/wiki/Moore_Army_Air_Field;
+308353;KCG;closed;Chignik Fisheries Airport;56.317643;-158.589706;25;NA;US;US-AK;Chignik;no;;KCG;;;http://en.wikipedia.org/wiki/Chignik_Fisheries_Airport;
+27307;KCGX;closed;Chicago Meigs Airport;41.85879898071289;-87.60790252685547;593;NA;US;US-IL;Chicago;no;KCGX;CGX;;;http://en.wikipedia.org/wiki/Meigs_Field;Mayor Daley
+302474;KDWF;closed;Wright Field;39.78;-84.10444444439999;800;NA;US;US-OH;Dayton;no;KDWF;DWF;DWF;;http://en.wikipedia.org/wiki/Wright_Field;Wright AFB
+38683;KFLU;closed;Flushing Airport;40.77870178222656;-73.83260345458984;;NA;US;US-NY;Queens;no;KFLU;FLU;;;http://en.wikipedia.org/wiki/Flushing_Airport;
+307427;KGSW;closed;Greater Southwest International Airport-Amon Carter Field;32.8308104547;-97.04918861390001;568;NA;US;US-TX;Fort Worth;no;KGSW;GSW;GSW;;http://en.wikipedia.org/wiki/Greater_Southwest_International_Airport;
+30007;KGVW;closed;Richards-Gebaur Air Force Base;38.844200134277344;-94.55999755859375;1093;NA;US;US-MO;Belton;no;KGVW;GVW;;;http://en.wikipedia.org/wiki/Richards-Gebaur_Air_Force_Base;Grandview Airport
+17617;KHAX;closed;Hatbox Field;35.7458992004;-95.4128036499;627;NA;US;US-OK;Muskogee;no;KHAX;HAX;HAX;;http://en.wikipedia.org/wiki/Hatbox_Field;Muskogee Army Airfield
+313421;KHL;closed;Khan Jahan Ali Airport;22.6486;89.6454;21;AS;BD;BD-4;Khulna;no;;KHL;;;http://en.wikipedia.org/wiki/Khan_Jahan_Ali_Airport;Mongla, Bagerhat
+313423;KIA;closed;Kaiapit Airport;-6.275;146.27;1030;OC;PG;PG-MPL;Kaiapit;no;;KIA;;;;
+313425;KIZ;closed;Kikinonda Airport;-8.5284;147.9309;95;OC;PG;PG-NPP;Kikinonda;no;;KIZ;;;;
+312915;KJU;closed;Kamiraba Airport;-3.1995;151.9077;40;OC;PG;PG-NIK;Kamiraba;no;;KJU;;;;
+29668;KLHC;closed;Arlington Municipal Airport;35.28310012817383;-89.67250061035156;308;NA;US;US-TN;Arlington;no;KLHC;LHC;;;;
+313437;KMT;closed;Kampot Airport;10.6343;104.1617;44;AS;KH;KH-7;Kampot;no;;KMT;;;;
+29651;KNGZ;closed;Alameda Naval Air Station;37.78889846801758;-122.31999969482422;10;NA;US;US-CA;Alameda;no;KNGZ;NGZ;;;http://en.wikipedia.org/wiki/Naval_Air_Station_Alameda;Naval Air Station
+312856;KNL;closed;Kelanoa Airport;-6.01;147.49;40;OC;PG;PG-MPL;Kelanoa;no;;KNL;;;;
+315377;KOIL;closed;Splane Memorial Airport;41.4813;-79.7449;1552;NA;US;US-PA;Oil City;no;KOIL;OIL;OIL;;;Oil City Glider Club Gliderport
+313470;KOL;closed;Koumala Airport;8.4965;21.2565;2175;AF;CF;CF-BB;Koumala;no;;KOL;;;http://en.wikipedia.org/wiki/Koumala_Airport;
+3780;KPLB;closed;Clinton County Airport;44.6875;-73.52449798583984;371;NA;US;US-NY;Plattsburgh;no;KPLB;PLB;PLB;;http://en.wikipedia.org/wiki/Clinton_County_Airport;
+30233;KPVZ;closed;Casement Airport;41.73360061649999;-81.21920013430001;699;NA;US;US-OH;Plainesville;no;KPVZ;PVZ;PVZ;;;
+20985;KRZZ;closed;Halifax County Airport;36.4394989014;-77.7092971802;256;NA;US;US-NC;Roanoke Rapids;no;KRZZ;RZZ;RZZ;;http://en.wikipedia.org/wiki/Halifax_County_Airport;
+313226;KSG;closed;Kisengam Airport;-6.362;146.71;3700;OC;PG;PG-MPL;Kisenden;no;;KSG;;;;Kisengang
+21077;KSKY;closed;Griffing Sandusky Airport;41.4333992004;-82.6522979736;580;NA;US;US-OH;Sandusky;no;KSKY;SKY;SKY;;http://en.wikipedia.org/wiki/Griffing_Sandusky_Airport;
+29962;KSPX;closed;Houston Gulf Airport;29.50830078125;-95.051399230957;20;NA;US;US-TX;Houston;no;KSPX;SPX;SPX;;http://en.wikipedia.org/wiki/Houston_Gulf_Airport;Spaceland Airport
+312959;KTK;closed;Kunua Airport;-5.7828;154.74;60;OC;PG;PG-NSB;Kunua;no;;KTK;;;;Kanua, Konua
+3939;KUCA;closed;Oneida County Airport;43.14509963989258;-75.38390350341797;742;NA;US;US-NY;Utica;no;KUCA;UCA;UCA;;http://en.wikipedia.org/wiki/Oneida_County_Airport;
+41609;KUIZ;closed;Berz-Macomb Airport;42.66389846801758;-82.96540069580078;610;NA;US;US-MI;;no;KUIZ;UIZ;UIZ;;;
+313443;KWV;closed;Kurwina Airport;-5.965;155.3604;65;OC;PG;PG-NSB;Kurwina;no;;KWV;;;;
+313225;KWX;closed;Kiwai Airport;-8.6883;143.618;30;OC;PG;PG-WPD;Kiwai Island;no;;KWX;;;;Sanguane
+313342;KYL;closed;Port Largo Airport;25.09334;-80.42992;4;NA;US;US-FL;Key Largo;no;;KYL;;;;
+92;LBRS;closed;Ruse Airport;43.6948013306;26.056699752800004;614;EU;BG;BG-18;Ruse;no;LBRS;ROU;;;http://en.wikipedia.org/wiki/Ruse_Airport;LB24, Shtruklovo Air Base
+32324;LBSS;closed;Silistra Polkovnik Lambrinovo Air Base;44.055199;27.178801;351;EU;BG;BG-19;Silistra;no;LBSS;SLS;;;https://en.wikipedia.org/wiki/Silistra_Airfield;
+328981;LDST;closed;[Duplicate]Split Seaplane City;43.498132;16.438216;;EU;HR;HR-U-A;Split;no;LDST;DST;;;;
+46583;LERL;closed;Ciudad Real Central Airport;38.8563888889;-3.97;;EU;ES;ES-CM;Ciudad Real;no;LERL;CQM;;http://www.aeropuertocentralcr.com/;http://en.wikipedia.org/wiki/Ciudad_Real_Central_Airport;
+4229;LFSF;closed;Metz-Frescaty (BA 128) Air Base;49.071701;6.13167;629;EU;FR;FR-M;Metz/Frescaty;no;LFSF;MZM;;;;
+30786;LFSQ;closed;Fontaine Airport;47.655601501465;7.0108299255371;1208;EU;FR;FR-I;Belfort;no;LFSQ;BOR;;;;
+4237;LFSR;closed;Reims-Champagne (BA 112) Air Base;49.310001;4.05;312;EU;FR;FR-G;Reims/Champagne;no;LFSR;RHE;;;;
+29011;LFTU;closed;Fréjus Airport;43.4175;6.7357;33;EU;FR;FR-U;Fréjus;no;LFTU;FRJ;;;http://en.wikipedia.org/wiki/Frejus_Airport;
+4249;LGAG;closed;Agrinion Air Base;38.602001;21.3512001;154;EU;GR;GR-01;Agrinion;yes;LGAG;AGQ;;;;Agrinio
+29673;LGAT;closed;Athen Helenikon Airport;37.893299;23.726101;69;EU;GR;GR-A1;Athens;no;LGAT;HEW;;;;
+30281;LGHL;closed;Porto Cheli Airport;37.297501;23.1478;69;EU;GR;GR-11;Porto Cheli;no;LGHL;PKH;;;;
+313897;LGM;closed;Laiagam Airport;-5.4923;143.488;7267;OC;PG;PG-EPW;Laiagam;no;;LGM;;;;
+325366;LHP;closed;Lehu Airport;-6.527493;155.712442;1770;OC;PG;PG-NSB;Lehu;no;;LHP;LEHU;;;
+31824;LIDI;closed;Cortina Airport;46.573001861600005;12.118000030500001;4213;EU;IT;IT-34;Cortina D'Ampezzo;no;LIDI;CDF;;;http://en.wikipedia.org/wiki/Cortina_Airport;Fiames Airport
+4364;LIPT;closed;Vicenza Airport;45.573399;11.5295;128;EU;IT;IT-34;Vicenza;no;LIPT;VIC;;;;T Dal Molin
+29956;LKHO;closed;Holešov Airport;49.3143997;17.5688992;761;EU;CZ;CZ-ZL;Holešov;no;LKHO;GTW;;;https://en.wikipedia.org/wiki/Hole%C5%A1ov_Airport;
+29928;LLAZ;closed;Gush Katif Airport;31.367050170898;34.294509887695;112;AS;PS;PS-KYS;Khan Yunis;no;;GHK;;;http://en.wikipedia.org/wiki/Gush_Katif;
+4415;LLET;closed;Eilat Airport;29.5613;34.960098;42;AS;IL;IL-D;Eilat;yes;LLET;ETH;;;http://en.wikipedia.org/wiki/Eilat_Airport;J. Hozman
+312995;LNQ;closed;Loani Airport;-10.5815;150.5931;150;OC;PG;PG-MBA;Loani;no;;LNQ;;;;
+313920;LOF;closed;Loen Airport;7.7575;168.2357;23;OC;MH;MH-NMU;Loen Island;no;;LOF;;;;Leuen Island
+29491;LPSI;closed;Sines Airport;37.941692;-8.817301;;EU;PT;PT-15;;no;LPSI;SIE;;;;
+301128;LRO;closed;Sharpe AAF;37.837916666699996;-121.272805556;55;NA;US;US-CA;Lathrop;no;;LRO;;;;
+29501;LSMI;closed;Interlaken Air Base;46.6766014;7.8790798;;EU;CH;CH-BE;;no;LSMI;ZIN;;;;
+30614;LSZD;closed;Ascona Airport;46.157798767100005;8.78194046021;655;EU;CH;CH-TI;Ascona;no;LSZD;ACO;;;;
+298786;LTB;closed;Latrobe Airport;-41.235188030699994;146.396169662;12;OC;AU;AU-TAS;Latrobe;no;;LTB;;;;
+313849;LTH;closed;Lathrop Wells Airport / Jackass Aeropark;36.6342;-116.4135;2650;NA;US;US-NV;Amargosa Valley;no;;LTH;U75;;http://en.wikipedia.org/wiki/Jackass_Aeropark;
+313845;LVB;closed;Santana do Livramento Airport;-30.8354;-55.62565;1094;SA;BR;BR-RS;Santana do Livramento;no;;LVB;;;;
+34929;LVGZ;closed;Yasser Arafat International Airport;31.24640083313;34.276100158691;320;AS;PS;PS-RFH;Rafah;no;LVGZ;GZA;;;http://en.wikipedia.org/wiki/Yasser_Arafat_International_Airport;Gaza Strip, Gaza International Airport, Dahaniya International Airport
+309432;MA-0001;closed;[Duplicate] Tarfaya Airport;27.9487;-12.9166;20;AF;MA;MA-LAA;Tarfaya;no;;TFY;;;;
+30384;MDHE;closed;Herrera Airport;18.4696998596;-69.9693984985;190;NA;DO;DO-01;Santo Domingo;no;MDHE;HEX;;;http://en.wikipedia.org/wiki/Herrera_International_Airport;
+42312;MDSJ;closed;San Juan Airport;18.833332061799997;-71.2333297729;1496;NA;DO;DO-22;San Juan;no;MDSJ;SJM;;;;
+313977;MGG;closed;Margarima Airport;-5.979;143.3595;7291;OC;PG;PG-SHM;Margarima;no;;MGG;;;;
+313978;MGI;closed;Matagorda Island Air Force Base;28.323;-96.464;7;NA;US;US-TX;Matagorda Island;no;;MGI;;;http://en.wikipedia.org/wiki/Matagorda_Island_Air_Force_Base;
+42047;MHCL;closed;Colon Airport;14.161944;-88.034447;1240;NA;HN;HN-LP;Marcala;no;MHMA;MRJ;;;https://en.wikipedia.org/wiki/Marcala_Airport;
+42123;MHRS;closed;Santa Rosa de Copán Airport;14.777889;-88.775021;3564;NA;HN;HN-CP;Santa Rosa de Copán;no;MHSR;SDH;;;https://en.wikipedia.org/wiki/Santa_Rosa_de_Cop%C3%A1n_Airport;
+4749;MMSC;closed;San Cristobal de las Casas Airport;16.690299987793;-92.530097961426;7707;NA;MX;MX-CHP;San Cristobal de las Casas;no;MMSC;SZT;;;https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_las_Casas_National_Airport;Corazón de María
+313383;MNP;closed;Maron Island Airport;-1.5504;145.0168;4;OC;PG;PG-MRL;Hermit Islands;no;;MNP;;;;
+32164;MPLP;closed;Captain Ramon Xatruch Airport;8.40667;-78.141701;30;NA;PA;PA-5;La Palma;no;MPLP;PLP;;;;
+314180;MVI;closed;Manetai Airport;-6.12;155.39;170;OC;PG;PG-NSB;Manetai;no;;MVI;;;;
+314181;MVJ;closed;Marlboro Airport;18.019;-77.495;2080;NA;JM;JM-12;Mandeville;no;;MVJ;;;;
+41314;MY-GTB;closed;Genting Airport;2.11666703224;111.699996948;13;AS;MY;MY-13;Genting;no;;GTB;;;;
+35349;MYZ2;closed;Cape Eleuthera Airport;24.7861;-76.2962;9;NA;BS;BS-RS;Cape Eleuthera;no;MYEC;CEL;;;http://en.wikipedia.org/wiki/Cape_Eleuthera_Airport;MYZ2
+27303;MZ-0004;closed;Magaruque Airport;-21.9672451019;35.4247283936;20;AF;MZ;MZ-I;Magaruque Island;no;;MFW;;;;
+22659;N04;closed;Griswold Airport;41.2711982727;-72.549697876;15;NA;US;US-CT;Madison;no;N04;MPE;N04;;http://en.wikipedia.org/wiki/Griswold_Airport;
+45040;NFBG;closed;Biaugunu Airport;-16.4493799329;179.740104675;32;OC;FJ;FJ-N;Saqani, Cakaudrove;no;NFBG;AQS;;;;Saqani Airport
+315553;NFNU;closed;Bui-Dama Airport;-16.8598;178.6232;90;OC;FJ;FJ-N;Bua;no;NFNU;BVF;;;;Ndalomo
+23311;NRC;closed;NASA Crows Landing Airport;37.408000946045;-121.10900115967;166;NA;US;US-CA;Crows Landing;no;KNRC;NRC;NRC;;https://en.wikipedia.org/wiki/NASA_Crows_Landing_Airport;NALF Crows Landing
+316560;NTA;closed;Natadola Airport;-18.0677;177.315;12;OC;FJ;FJ-W;Mbatiri;no;;NTA;;;;
+46091;O62;closed;Carmel Valley;36.4814843441;-121.72911644;;NA;US;US-CA;;no;;O62;;;;
+301189;OBK;closed;Sky Harbor Airport;42.1438888889;-87.85555555559999;675;NA;US;US-IL;Northbrook;no;;OBK;;;;
+301194;OHE;closed;[Duplicate] Gu-Lian Airport;52.913244;122.429056;1836;AS;CN;CN-23;Mohe;no;ZYMH;OHE;;;http://en.wikipedia.org/wiki/Mohe_Gulian_Airport;
+5141;OIBI;closed;Asaloyeh Airport;27.4814;52.615501;15;AS;IR;IR-06;Asaloyeh;no;OIBI;YEH;OI15;;http://en.wikipedia.org/wiki/Asalouyeh_Airport;AOY
+5217;OJJR;closed;Jerusalem Airport;31.864700317383;35.219200134277;2485;AS;PS;PS-JEM;Jerusalem;no;OJJR;JRS;;;http://en.wikipedia.org/wiki/Atarot_Airport;Atarot Airport, LLJR
+23747;OK03;closed;Downtown Airpark;35.449183;-97.532989;1180;NA;US;US-OK;Oklahoma City;no;;DWN;;;;OK03, 2DT
+313132;OML;closed;Omkalai Airport;-6.179;144.96;5700;OC;PG;PG-CPK;Omkalai;no;;OML;;;;
+30640;PA-AML;closed;Puerto Armuelles Airport;8.2680597305298;-82.864898681641;42;NA;PA;PA-4;Puerto Armuelles;no;;AML;;;;
+16386;PAAT;closed;Casco Cove Coast Guard Station;52.8283996582;173.179992676;40;NA;US;US-AK;Attu;no;PAAT;ATU;ATU;;http://en.wikipedia.org/wiki/Casco_Cove_Coast_Guard_Station;
+315247;PAF;closed;[Duplicate] Pakuba Airfield;2.33333;31.5;;AF;UG;UG-U-A;;no;HUPA;PAF;;;https://en.wikipedia.org/wiki/Pakuba_Airfield;
+42759;PG-KXR;closed;Karoola Airport;-5.1431;154.5928;52;OC;PG;PG-NSB;Buka Island;no;;KXR;;;;
+322988;PGP;closed;Porto Alegre Airport;0.033333;6.533333;;AF;ST;ST-S;Porto Alegro;no;;PGP;;;;
+313934;PHKP;closed;Kaanapali Airport;20.945;-156.69;3;NA;US;US-HI;Kaanapali;no;PHKP;HKP;HKP;;http://en.wikipedia.org/wiki/Kaanapali_Airport;
+35152;PJON;closed;Johnston Atoll Airport;16.7285995483;-169.533996582;7;OC;UM;UM-67;Johnston Atoll;yes;PJON;JON;;;http://en.wikipedia.org/wiki/Johnston_Atoll_Airport;
+41634;PK-SWV;closed;Shikarpur Airport;29.166667;70.433333;219;AS;PK;PK-SD;Shikarpur;no;;SWV;;;;
+42316;PR-DDP;closed;Dorado Beach Airport;18.4649657136;-66.295580864;75;NA;PR;PR-U-A;Dorado;no;;DDP;;;;
+42318;PR-PPD;closed;Palmas del Mar Airstrip;18.086200714111;-65.796501159668;100;NA;PR;PR-U-A;Palmas del Mar;no;;PPD;;;;
+316676;PUI;closed;Pureni Airport;-5.8429;142.8279;5512;OC;PG;PG-MPM;Pureni;no;;PUI;;;;
+314465;RCN;closed;American River Airport;-35.7574;137.7759;389;OC;AU;AU-SA;American River;no;;RCN;;;;
+308123;REH;closed;Rehoboth Airport;38.72;-75.122;30;NA;US;US-DE;Rehoboth Beach;no;;REH;;;;
+314448;RGE;closed;Porgera Airport;-5.4792;143.1236;7360;OC;PG;PG-EPW;Porgera;no;;RGE;;;;
+5632;RKJM;closed;Mokpo Airport;34.758979;126.380324;23;AS;KR;KR-46;Gonghang-ro (Mokpo);no;RKJM;MPK;;;http://en.wikipedia.org/wiki/Mokpo_Airport;
+32196;RKNC;closed;Camp Page Airport (A-306);37.883801;127.718002;245;AS;KR;KR-42;Chun Chon City;no;RKNC;QUN;;;;
+314509;RNR;closed;Robinson River Airport;-10.171;148.823;60;OC;PG;PG-CPM;Robinson River;no;;RNR;RNR;;;
+5702;RPMI;closed;Iligan Airport;8.13049;124.214996;1300;AS;PH;PH-LAN;;no;RPMI;IGN;;;http://en.wikipedia.org/wiki/Maria_Cristina_Airport;
+314552;RZH;closed;Quartz Hill Airport;34.65;-118.206;2465;NA;US;US-CA;Lancaster;no;;RZH;;;;
+37;SA30;closed;Colonia Catriel Airport;-37.9101982117;-67.8349990845;1026;SA;AR;AR-R;Colonia Catriel;no;SA30;CCT;CLT;;http://en.wikipedia.org/wiki/Colonia_Catriel_Airport;SA30, SA0U
+30057;SAWA;closed;Lago Argentino Airport;-50.336102;-72.248596;732;SA;AR;AR-Z;El Calafate;yes;SAWA;ING;;;;
+137;SB29;closed;Fazenda Bela Vista Airport;-6.870940208435059;-48.5349006652832;561;SA;BR;BR-TO;3 Marias;no;;SB2;;;;
+45098;SC-0001;closed;[Duplicate] Praslin Island Airport;-4.32;55.69;3;AF;SC;SC-14;Praslin Island;no;;PRI;;;;
+45158;SC-0002;closed;[Duplicate] Praslin Island Airport;-4.320172;55.692365;3;AF;SC;SC-14;Praslin Island;no;;PRI;;;;
+314565;SCR;closed;Scranton Municipal Airport.;41.4802;-75.772;1151;NA;US;US-PA;Scranton;no;;SCR;;;;
+30366;SCTI;closed;Los Cerrillos Airport;-33.493598938;-70.6977996826;1680;SA;CL;CL-RM;Santiago;no;SCTI;ULC;;;http://es.wikipedia.org/wiki/Aer%C3%B3dromo_Los_Cerrillos;
+314610;SFR;closed;San Fernando Airport;34.289;-118.422;1168;NA;US;US-CA;Los Angeles;no;;SFR;;;;
+309459;SKJ;closed;Sitkinak Airport;56.5378;-154.1412;65;NA;US;US-AK;Sitkinak Island;no;;SKJ;SKJ;;;
+6143;SKOT;closed;Otu Airport;7.01037;-74.7155;2060;SA;CO;CO-ANT;Remedios;no;SKOT;OTU;;;http://en.wikipedia.org/wiki/Ot%C3%BA_Airport;El Rhin
+129;SNHA;closed;Itabuna Airport;-14.810500145;-39.2904014587;197;SA;BR;BR-BA;Itabuna;no;;ITN;;;;SNHA, SB01
+314713;SRF;closed;Hamilton Field;38.06;-122.51;2;NA;US;US-CA;San Rafael;no;;SRF;;;http://en.wikipedia.org/wiki/Hamilton_Army_Airfield;Marin Airfield, Marin Meadows Airfield, Hamilton AFB
+314734;SRU;closed;Santa Cruz Sky Park;37.0503;-122.0315;523;NA;US;US-CA;Scotts Valley;no;;SRU;;;http://en.wikipedia.org/wiki/Santa_Cruz_Sky_Park;
+314921;SSU;closed;Greenbrier Airport;37.775;-80.336;1795;NA;US;US-WV;White Sulphur Springs;no;;SSU;;;;
+309669;SSVR;closed;Volta Redonda Airport;-22.4978;-44.085;1245;SA;BR;BR-RJ;Volta Redonda;no;SSVR;QVR;;;;
+314972;SUZ;closed;Suria Airport;-9.032;147.45;2600;OC;PG;PG-CPM;Suria;no;;SUZ;SUR;;;
+316417;TAA;closed;Tarapaina Airport;-9.414;161.358;80;OC;SB;SB-ML;Tarapaina;no;;TAA;;;;
+316418;TBA;closed;Tabibuga Airport;-5.5766;144.6508;4400;OC;PG;PG-JI;Tabibuga;no;;TBA;;;;
+312748;TIG;closed;Tingwon Airport;-2.6053;149.7107;30;OC;PG;PG-NIK;Tingwon Island;no;;TIG;;;;
+312749;TSK;closed;Taskul Airport;-2.546;150.4553;100;OC;PG;PG-SAN;Taskul;no;;TSK;;;;
+315012;TUT;closed;Tauta Airport;-5.8335;145.9341;4200;OC;PG;PG-MPM;Tauta;no;;TUT;;;;
+35154;TUZ;closed;Tucuma Airport;-3.9670000076293945;-66.43299865722656;59;SA;BR;BR-AM;Tucuma;no;TUZ;BR-;;;;
+6468;UKCC;closed;Donetsk International Airport;48.073601;37.7397;791;EU;UA;UA-14;Donetsk;yes;UKCC;DOK;;http://airport.dn.ua/;http://en.wikipedia.org/wiki/Donetsk_International_Airport;"Міжнародний аеропорт ""Донецьк"""
+31019;UKDB;closed;Berdyansk Airport;46.814999;36.758099;171;EU;UA;UA-23;Berdyansk;no;UKDB;ERD;;;;
+32535;UKRR;closed;Chernihiv Shestovitsa Airport;51.4021987915;31.1583003998;446;EU;UA;UA-74;Chernigow;no;UKKL;CEJ;;;http://en.wikipedia.org/wiki/Chernihiv_Shestovitsa_Airport;
+42972;ULNN;closed;Novgorod Airport;58.49330139160156;31.24169921875;85;EU;RU;RU-NGR;Velikiy Novgorod;no;ULNN;NVR;;;http://en.wikipedia.org/wiki/Novgorod_Airport;Old Novgorod, Аэропорт Новгород
+32239;ULSS;closed;Rzhevka Airport;59.97999954223633;30.585599899291992;56;EU;RU;RU-LEN;St. Petersburg;no;ULSS;RVH;;http://www.airport-rzhevka.ru/;http://en.wikipedia.org/wiki/Rzhevka_Airport;Smolnaya Airfield, Smolnoye Airfield, Аэропорт Ржевка, Аэродром Смольная, Аэродром Смольное
+6500;UMMM;closed;Minsk 1 Airport;53.864498;27.5397;748;EU;BY;BY-MI;Minsk;yes;UMMM;MHP;;;http://en.wikipedia.org/wiki/Minsk-1;
+5994;URB;closed;Urubupunga Airport;-20.777099609375;-51.564800262451;1169;SA;BR;BR-SP;Castilho;no;;URB;;;;SBUP
+6518;URRR;closed;Rostov-on-Don Airport;47.258203;39.8181;280;EU;RU;RU-ROS;Rostov-on-Don;no;URRR;RVI;;http://rnd-airport.ru/;http://en.wikipedia.org/wiki/Rostov-on-Don_Airport;ROV, Аэропорт Ростов-на-Дону, Rostov-na-Donu Airport
+43678;URRY;closed;Volgodonsk Airport;47.682098;42.0728;276;EU;RU;RU-ROS;;no;URRQ;VLK;;;;Tsimlyansk Airport, Аэропорт Волгодонск, Аэропорт Цимлянск
+299322;US-0133;closed;Amchitka Army Airfield;51.3777777778;179.259166667;215;NA;US;US-AK;Amchitka Island;no;;AHT;;;http://en.wikipedia.org/wiki/Amchitka_Army_Airfield;
+38690;US-BPA;closed;Grumman Bethpage Airport;40.749401092499994;-73.4960021973;115;NA;US;US-NY;Bethpage;no;;BPA;;;;
+32197;USNR;closed;Raduzhny Airport;62.1585998535;77.32890319820001;250;AS;RU;RU-KHM;Raduzhnyi;yes;USNR;RAT;;;http://en.wikipedia.org/wiki/Raduzhny_Airport;
+316934;USO;closed;Usino Airport;-5.5276;145.371;430;OC;PG;PG-MPM;Usino;no;;USO;;;;Usini
+30762;UUBB;closed;Bykovo Airport;55.6171989441;38.0600013733;427;EU;RU;RU-MOS;Moscow;yes;UUBB;BKA;;;http://en.wikipedia.org/wiki/Bykovo_Airport;Аэропорт Быково
+316886;VIB;closed;Villa Constitución Airport;25.0552;-111.6874;175;NA;MX;MX-BCS;Ciudad Constitución;no;;VIB;;;;
+26701;VVNT;closed;Nha Trang Air Base;12.2275;109.192001;20;AS;VN;VN-34;Nha Trang;no;VVNT;NHA;;;http://en.wikipedia.org/wiki/Nha_Trang_Air_Base;Nhatrang, BA 194
+314297;WAB;closed;Wabag Airport;-5.4915;143.72;6800;OC;PG;PG-EPW;Wabag;no;;WAB;;;;
+32289;WBGY;closed;Simanggang Airport;1.2219;111.4636;47;AS;MY;MY-13;Sri Aman;no;WBGY;SGG;;;;Sri Aman
+316477;WGU;closed;Wagau Airport;-6.8519;146.8022;3853;OC;PG;PG-MPL;Wagau;no;;WGU;;;;
+316478;WGY;closed;Wagny Airport;-0.6035;12.2608;1025;AF;GA;GA-7;Wagny;no;;WGY;;;;
+308946;WID;closed;RAF Wildenrath;51.1141;6.2151;285;EU;DE;DE-NW;British Armed Forces;no;;WID;;;http://en.wikipedia.org/wiki/RAF_Wildenrath;
+313309;WJBK;closed;Berkley Municipal Heliport;37.8666;-122.3065;12;NA;US;US-CA;Oakland;no;WJBK;JBK;JBK;;;
+319516;XLO;closed;Long Xuyên Airport;10.330134;105.473144;12;AS;VN;VN-44;Long Xuyên;no;;XLO;;;;
+319521;XNG;closed;Quảng Ngãi Airfield;15.115474;108.771816;50;AS;VN;VN-13;Quảng Ngãi;no;;XNG;;;https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i_Airfield;
+27748;YLZR;closed;[Duplicate] Lizard Island Airport;-14.673273;145.454571;;OC;AU;AU-QLD;;no;YLZI;LZR;;;;
+301274;YTU;closed;Tasu Water Aerodrome;52.7630555556;-132.04;0;NA;CA;CA-BC;Tasu;no;;YTU;AP4;;http://en.wikipedia.org/wiki/Tasu_Water_Aerodrome;
+42781;ZBK;closed;Žabljak Airport;43.116669;19.233334;4252;EU;ME;ME-21;Žabljak Airport;no;;ZBK;;;http://en.wikipedia.org/wiki/%C5%BDabljak_Airport;Аеродром Жабљак, Aerodrom Žabljak
+318919;ZLG;closed;La Güera Airport;20.836389;-17.074167;10;AF;EH;EH-U-A;La Güera;no;;ZLG;;;https://en.wikipedia.org/wiki/La_G%C3%BCera_Airport;

@@ -69,6 +69,7 @@ Deleted:
 - airport-name-wiki.csv
 - firstname_cleaned.csv
 - job_title_cleaned.csv
+- fr_comsimp2015.csv
 
 Add:
 - airport-name-code.csv from http://ourairports.com/data/, includes small, medium, and airports, seaplane bases, and closed airports, all having valid IATA code
@@ -78,6 +79,7 @@ Add:
 - Currencies_NoISO.csv currencies without ISO 4217 currency codes from https://en.wikipedia.org/wiki/ISO_4217
 - Currencies_Unofficial.csv unofficial currency codes from https://en.wikipedia.org/wiki/ISO_4217
 - firstname_full.csv merge from remaining items from previous file firstname_cleaned.csv 2015 + data from https://github.com/MatthiasWinkelmann/firstname-database (deduplicated + transform "+" occurrences by "-", " " and "")
+- fr_communes.csv from insee, same source as previous, cleaned existing csv which contained duplicates and wrong data, added past deleted communes between 1943 and 2015 and added new ones until 2019, using insee history tool https://www.insee.fr/fr/information/2028028.
 - industry_FR_ROME.csv  from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
 - industry_Profession_Trade_FR.csv from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
 - industry_sector_FR_ROME.csv from https://www.data.gouv.fr/en/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/
@@ -87,4 +89,5 @@ Add:
 
 Update:
 - country-codes.csv source replaced by https://www.iso.org/obp/ui/#iso:code:3166:EH and wikipedia for synonyms addition
+- languages_code_name.csv checked iso accuracy from http://www.loc.gov/standards/iso639-2/php/code_list.php
 - us_counties.csv merge previous version 2015 with data from https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents + add synonyms for cases "St. -> Saint" and "Ste. -> Sainte"
