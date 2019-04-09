@@ -12,14 +12,15 @@
 // ============================================================================
 package org.talend.dataquality.semantic.datamasking;
 
-import com.mifmif.common.regex.Generex;
+import static org.talend.dataquality.datamasking.FunctionMode.CONSISTENT;
+
+import java.util.Random;
+
 import org.apache.commons.lang3.StringUtils;
 import org.talend.dataquality.datamasking.functions.FunctionString;
 import org.talend.dataquality.semantic.utils.RegexUtils;
 
-import java.util.Random;
-
-import static org.talend.dataquality.datamasking.FunctionMode.CONSISTENT;
+import com.mifmif.common.regex.Generex;
 
 /**
  * Generate masking data from regex str
@@ -33,16 +34,6 @@ public class GenerateFromRegex extends FunctionString {
     private transient String patternStr;
 
     private static final String[] invalidKw = { "(?:", "(?!", "(?=", "[[:space:]]", "[[:digit:]]", "\\u" }; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$ //$NON-NLS-4$ //$NON-NLS-5$ //$NON-NLS-6$
-
-    /*
-     * (non-Javadoc)
-     * 
-     * @see org.talend.dataquality.datamasking.functions.Function#doGenerateMaskedFieldWithRandom(java.lang.Object)
-     */
-    @Override
-    protected String doGenerateMaskedField(String inputValue) {
-        return doGenerateMaskedFieldWithRandom(inputValue, rnd);
-    }
 
     @Override
     protected String doGenerateMaskedFieldWithRandom(String str, Random r) {

@@ -14,20 +14,19 @@ package org.talend.dataquality.datamasking.functions;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.security.SecureRandom;
 import java.util.List;
 import java.util.Random;
 import java.util.regex.Pattern;
 
-import org.apache.commons.lang.NotImplementedException;
-import org.apache.commons.lang.RandomStringUtils;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.talend.dataquality.datamasking.FormatPreservingMethod;
 import org.talend.dataquality.datamasking.FunctionMode;
-import org.talend.dataquality.datamasking.generic.Alphabet;
-
-import java.security.SecureRandom;
+import org.talend.dataquality.datamasking.functions.text.Alphabet;
+import org.talend.dataquality.datamasking.functions.util.KeysLoader;
 
 /**
  * created by jgonzalez on 18 juin 2015. This class is an abstract class that
@@ -120,7 +119,7 @@ public abstract class Function<T> implements Serializable {
         if (extraParameter != null) {
             parameters = getParameters(extraParameter);
             if (parameters.length == 1 && isNeedCheckPath()
-                    && (!isBothValidForFileOrNot() || !StringUtils.EMPTY.equals(parameters[0]))) {
+                    && (!isBothValidForFileOrNot() || !EMPTY_STRING.equals(parameters[0]))) {
                 // check if it's a path to a readable file
                 // For an empty param that is not mandatory, we do not want to return an error
                 try {
@@ -139,6 +138,13 @@ public abstract class Function<T> implements Serializable {
         }
 
         setKeepNull(keepNullValues);
+    }
+
+    /**
+     * getter for parameters
+     */
+    public String[] getParsedParameters() {
+        return parameters;
     }
 
     @Deprecated
@@ -192,10 +198,6 @@ public abstract class Function<T> implements Serializable {
     }
 
     public T generateMaskedRow(T t) {
-        return generateMaskedRow(t, maskingMode);
-    }
-
-    public T generateMaskedRow(T t, FunctionMode mode) {
         if (t == null && keepNull) {
             return null;
         }
@@ -204,11 +206,15 @@ public abstract class Function<T> implements Serializable {
             return t;
         }
 
-        try {
-            return doGenerateMaskedField(t, mode);
-        } catch (NotImplementedException e) {
-            return doGenerateMaskedField(t);
-        }
+        return doGenerateMaskedField(t);
+    }
+
+    /**
+     * @deprecated the mode should be configured setMaskingMode method.
+     */
+    public T generateMaskedRow(T t, FunctionMode mode) {
+        setMaskingMode(mode);
+        return doGenerateMaskedField(t);
     }
 
     /**
@@ -246,10 +252,6 @@ public abstract class Function<T> implements Serializable {
      * @return A new value after applying the function.
      */
     protected abstract T doGenerateMaskedField(T t);
-
-    protected T doGenerateMaskedField(T t, FunctionMode mode) {
-        throw new NotImplementedException();
-    }
 
     public void setSecret(FormatPreservingMethod method, String secret) {
         throw new UnsupportedOperationException("The class " + this.getClass().getName() + " should not use a secret.");

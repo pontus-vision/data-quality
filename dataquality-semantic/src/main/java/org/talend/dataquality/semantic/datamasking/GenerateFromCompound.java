@@ -12,11 +12,19 @@
 // ============================================================================
 package org.talend.dataquality.semantic.datamasking;
 
-import com.mifmif.common.regex.Generex;
+import static org.talend.dataquality.semantic.datamasking.FunctionBuilder.functionInitializer;
+import static org.talend.dataquality.semantic.model.CategoryType.DICT;
+import static org.talend.dataquality.semantic.model.CategoryType.REGEX;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.Random;
+
 import org.apache.commons.math3.util.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.talend.dataquality.datamasking.FunctionMode;
 import org.talend.dataquality.datamasking.functions.Function;
 import org.talend.dataquality.datamasking.functions.FunctionString;
 import org.talend.dataquality.datamasking.semantic.ReplaceCharactersWithGeneration;
@@ -27,15 +35,7 @@ import org.talend.dataquality.semantic.snapshot.DictionarySnapshot;
 import org.talend.dataquality.semantic.statistics.SemanticQualityAnalyzer;
 import org.talend.dataquality.semantic.utils.RegexUtils;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
-import java.util.Random;
-
-import static org.talend.dataquality.semantic.datamasking.FunctionBuilder.functionInitializer;
-import static org.talend.dataquality.semantic.model.CategoryType.DICT;
-import static org.talend.dataquality.semantic.model.CategoryType.REGEX;
+import com.mifmif.common.regex.Generex;
 
 /**
  * data masking of a column with the content of compound semantic type
@@ -49,16 +49,6 @@ public class GenerateFromCompound extends FunctionString {
     private DictionarySnapshot dictionarySnapshot = null;
 
     private SemanticQualityAnalyzer analyzer = null;
-
-    @Override
-    protected String doGenerateMaskedField(String str, FunctionMode mode) {
-        return super.doGenerateMaskedField(str, mode);
-    }
-
-    @Override
-    protected String doGenerateMaskedField(String value) {
-        return doGenerateMaskedFieldWithRandom(value, rnd);
-    }
 
     @Override
     protected String doGenerateMaskedFieldWithRandom(String str, Random r) {
@@ -89,7 +79,7 @@ public class GenerateFromCompound extends FunctionString {
 
         for (CategoryValues category : categoryValues) {
             if (analyzer.isValid(dictionarySnapshot.getDQCategoryByName(category.getName()), value))
-                categoryValuesResult.add(category); //can't use stream because of cast
+                categoryValuesResult.add(category); // can't use stream because of cast
         }
 
         if (!categoryValuesResult.isEmpty())
@@ -111,7 +101,7 @@ public class GenerateFromCompound extends FunctionString {
 
         for (CategoryValues category : categories) {
             if (DICT.equals(category.getType())) {
-                values.add((List<String>) category.getValue()); //can't use stream because of cast
+                values.add((List<String>) category.getValue()); // can't use stream because of cast
             }
         }
 
@@ -145,7 +135,7 @@ public class GenerateFromCompound extends FunctionString {
         CategoryValues cats = categoryValues.stream().filter(cat -> key.equals(cat.getCategoryId())).findAny().get();
 
         final MaskableCategoryEnum cat = MaskableCategoryEnum.getCategoryById(cats.getName());
-        if (cat != null) { //specific masking
+        if (cat != null) { // specific masking
             Function<String> function = functionInitializer(cat);
             function.setSeed(seed);
             result = function.generateMaskedRow(value, maskingMode);
