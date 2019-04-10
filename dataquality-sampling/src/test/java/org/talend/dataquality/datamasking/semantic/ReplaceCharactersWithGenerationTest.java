@@ -40,10 +40,9 @@ public class ReplaceCharactersWithGenerationTest {
 
     @Test
     public void consistentMasking() {
-        rcwg.setMaskingMode(FunctionMode.CONSISTENT);
         rcwg.setSeed("aSeed");
-        String result1 = rcwg.generateMaskedRow("Abcd-Efg-135");
-        String result2 = rcwg.generateMaskedRow("Abcd-Efg-135");
+        String result1 = rcwg.doGenerateMaskedField("Abcd-Efg-135", FunctionMode.CONSISTENT);
+        String result2 = rcwg.doGenerateMaskedField("Abcd-Efg-135", FunctionMode.CONSISTENT);
         assertEquals(result2, result1);
     }
 

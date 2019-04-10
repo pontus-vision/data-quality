@@ -1,16 +1,5 @@
 package org.talend.dataquality.semantic.datamasking;
 
-import static org.junit.Assert.assertEquals;
-import static org.mockito.Matchers.eq;
-import static org.mockito.Mockito.when;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
@@ -29,6 +18,17 @@ import org.talend.dataquality.semantic.model.DQCategory;
 import org.talend.dataquality.semantic.snapshot.DictionarySnapshot;
 import org.talend.dataquality.semantic.snapshot.StandardDictionarySnapshotProvider;
 import org.talend.dataquality.semantic.validator.GenerateValidator;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.when;
 
 public class GenerateFromCompoundTest {
 
@@ -90,7 +90,7 @@ public class GenerateFromCompoundTest {
 
         generate.setCategoryValues(createCategoryValuesWithDict());
         generate.parse("1", true);
-        String result = generate.generateMaskedRow("value1");
+        String result = generate.doGenerateMaskedField("value1");
         assertEquals("value3", result);
     }
 
@@ -101,7 +101,7 @@ public class GenerateFromCompoundTest {
 
         generate.setCategoryValues(createCategoryValuesWithRegex());
         generate.parse("2", true);
-        String result = generate.generateMaskedRow("a");
+        String result = generate.doGenerateMaskedField("a");
         assertEquals("y", result);
     }
 
@@ -114,16 +114,15 @@ public class GenerateFromCompoundTest {
 
         generate.setCategoryValues(createCategoryValuesWithCompound());
         generate.parse("1", true);
-        String result = generate.generateMaskedRow("a");
+        String result = generate.doGenerateMaskedField("a");
         assertEquals("y", result);
     }
 
     @Test
-    public void repeatableMaskCompoundMultiMatchedRegex() {
-        // TDQ-16673: Consistent repeatable SemanticType masking on Phone number
+    public void repeatableMaskCompoundMultiMatchedRegex() { //TDQ-16673: Consistent repeatable SemanticType masking on Phone number
         DictionarySnapshot snapshotCompound = new StandardDictionarySnapshotProvider().get();
         final DQCategory dqCategory = snapshotCompound.getDQCategoryByName(SemanticCategoryEnum.PHONE.name());
-        List<CategoryValues> types = GenerateValidator.initSemanticTypes(snapshotCompound, dqCategory, null);
+        List types = GenerateValidator.initSemanticTypes(snapshotCompound, dqCategory, null);
 
         GenerateFromCompound generateFromCompound = new GenerateFromCompound();
         if (types.size() > 0) {
@@ -135,8 +134,8 @@ public class GenerateFromCompoundTest {
 
         final String originalMaskedPhone = "0714-1438-85";
         final String expectedMaskedPhone = "089 61994681";
-        String result1 = generateFromCompound.generateMaskedRow(originalMaskedPhone);
-        String result2 = generateFromCompound.generateMaskedRow(originalMaskedPhone);
+        String result1 = generateFromCompound.doGenerateMaskedField(originalMaskedPhone, FunctionMode.CONSISTENT);
+        String result2 = generateFromCompound.doGenerateMaskedField(originalMaskedPhone, FunctionMode.CONSISTENT);
         assertEquals(expectedMaskedPhone, result1);
         assertEquals(expectedMaskedPhone, result2);
     }

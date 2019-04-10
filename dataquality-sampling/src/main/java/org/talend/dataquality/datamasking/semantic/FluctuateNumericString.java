@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 
 import org.talend.daikon.number.BigDecimalParser;
 import org.talend.dataquality.datamasking.FunctionMode;
-import org.talend.dataquality.datamasking.functions.number.NumericVariance;
+import org.talend.dataquality.datamasking.functions.NumericVariance;
 
 public class FluctuateNumericString extends NumericVariance<String> {
 
@@ -28,10 +28,15 @@ public class FluctuateNumericString extends NumericVariance<String> {
     private static final Pattern patternInteger = Pattern.compile("^(\\+|-)?\\d+$");
 
     @Override
+    protected String doGenerateMaskedField(String str, FunctionMode mode) {
+        Random r = rnd;
+        if (FunctionMode.CONSISTENT == mode)
+            r = getRandomForObject(str);
+        return doGenerateMaskedField(str, r);
+    }
+
+    @Override
     protected String doGenerateMaskedField(String input) {
-        if (FunctionMode.CONSISTENT == maskingMode) {
-            return doGenerateMaskedField(input, getRandomForObject(input));
-        }
         return doGenerateMaskedField(input, rnd);
     }
 

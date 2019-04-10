@@ -27,9 +27,11 @@ public class FunctionFactory<T> {
 
     private Function<T> getFunction3(FunctionType type, int javaType) throws InstantiationException, IllegalAccessException {
         Function<T> res;
-        if (type == FunctionType.REPLACE_LAST_CHARS) {
+        if (type == FunctionType.REPLACE_LAST_CHARS || type == FunctionType.REPLACE_LAST_CHARS_CONSISTENT
+                || type == FunctionType.REPLACE_LAST_CHARS_BIJECTIVE) {
             res = handleReplaceLastCharsFunction(javaType);
-        } else if (type == FunctionType.REPLACE_NUMERIC) {
+        } else if (type == FunctionType.REPLACE_NUMERIC || type == FunctionType.REPLACE_NUMERIC_CONSISTENT
+                || type == FunctionType.REPLACE_NUMERIC_BIJECTIVE) {
             res = handleReplaceNumericFunction(javaType);
         } else {
             res = getFunction(type.getClazz());
@@ -111,7 +113,8 @@ public class FunctionFactory<T> {
             res = handleRemoveFirstCharsFunction(javaType);
         } else if (type == FunctionType.REMOVE_LAST_CHARS) {
             res = handleRemoveLastCharsFunction(javaType);
-        } else if (type == FunctionType.REPLACE_FIRST_CHARS) {
+        } else if (type == FunctionType.REPLACE_FIRST_CHARS || type == FunctionType.REPLACE_FIRST_CHARS_CONSISTENT
+                || type == FunctionType.REPLACE_FIRST_CHARS_BIJECTIVE) {
             res = handleReplaceFirstCharsFunction(javaType);
         } else {
             res = getFunction3(type, javaType);
@@ -318,44 +321,6 @@ public class FunctionFactory<T> {
     }
 
     /**
-     * Instantiate the data masking Function according to the function name, data type and method.
-     * This method is mainly used by tDataMasking components in the studio.
-     *
-     * @param functionName the name of the function
-     * @param javaType the data type
-     * @param methodName the name of the method
-     * @return
-     * @throws InstantiationException
-     * @throws IllegalAccessException
-     */
-    public Function<T> getFunction(String functionName, int javaType, String methodName)
-            throws InstantiationException, IllegalAccessException {
-        // try to get the FunctionType if it is defined.
-        FunctionType type = FunctionType.getByName(functionName);
-
-        // if not defined in FunctionType, handle the specific names.
-        if (type == null) {
-            if (functionName.contains("EMAIL")) {
-                if (FunctionMode.MASK_BY_CHARACTER.name().equals(methodName)) {
-                    type = FunctionType.getByName(functionName + "_BY_X");
-                } else if (FunctionMode.MASK_FROM_LIST.name().equals(methodName)) {
-                    type = FunctionType.getByName(functionName + "_RANDOMLY");
-                }
-            } else if ("GENERATE_FROM_LIST_OR_FILE".equals(functionName)) {
-                if (FunctionMode.RANDOM.name().equals(methodName)) {
-                    type = FunctionType.GENERATE_FROM_FILE;
-                } else if (FunctionMode.CONSISTENT.name().equals(methodName)) {
-                    type = FunctionType.GENERATE_FROM_FILE_HASH;
-                }
-            }
-        }
-        if (type != null) {
-            return getFunction(type, javaType);
-        }
-        throw new IllegalArgumentException("No function found with the given parameter.");
-    }
-
-    /**
      * DOC jgonzalez Comment method "getFunction". This function is used to res = the correct function according to the
      * user choice.
      * 
@@ -367,9 +332,11 @@ public class FunctionFactory<T> {
      */
     public Function<T> getFunction(FunctionType type, int javaType) throws InstantiationException, IllegalAccessException {
         Function<T> res;
-        if (type == FunctionType.KEEP_FIRST_AND_GENERATE) {
+        if (type == FunctionType.KEEP_FIRST_AND_GENERATE || type == FunctionType.KEEP_FIRST_AND_GENERATE_CONSISTENT
+                || type == FunctionType.KEEP_FIRST_AND_GENERATE_BIJECTIVE) {
             res = handleKeepFirstAndGenerateFunction(javaType);
-        } else if (type == FunctionType.KEEP_LAST_AND_GENERATE) {
+        } else if (type == FunctionType.KEEP_LAST_AND_GENERATE || type == FunctionType.KEEP_LAST_AND_GENERATE_CONSISTENT
+                || type == FunctionType.KEEP_LAST_AND_GENERATE_BIJECTIVE) {
             res = handleKeepLastAndGenerateFunction(javaType);
         } else if (type == FunctionType.GENERATE_BETWEEN) {
             res = handleGenerateBetweenFunction(javaType);

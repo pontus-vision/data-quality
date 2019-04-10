@@ -1,14 +1,12 @@
 package org.talend.dataquality.datamasking.shuffling;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -83,7 +81,7 @@ public class ShuffleColumnWithPartitionTest {
         service.setHasFinished(true);
         System.out.println("1000 line generation time " + (time2 - time1));
 
-        assertEquals(1, result.size());
+        Assert.assertEquals(1, result.size());
 
         for (int i = 0; i < fileData.size() / partition; i++) {
             List<String> emailsO = new ArrayList<String>();
@@ -99,13 +97,13 @@ public class ShuffleColumnWithPartitionTest {
             List<String> statesS = new ArrayList<String>();
 
             List<List<Object>> subRows = result.poll();
-            assertEquals(partition, subRows.size());
+            Assert.assertEquals(partition, subRows.size());
 
             for (int row = 0; row < subRows.size(); row++) {
                 int idS = Integer.parseInt(subRows.get(row).get(0).toString());
                 // Partition runs well: id is in the range of partition
-                assertTrue(idS >= (partition * i + 1));
-                assertTrue(idS < (partition * (i + 1) + 1));
+                Assert.assertTrue(idS >= (partition * i + 1));
+                Assert.assertTrue(idS < (partition * (i + 1) + 1));
 
                 emailsO.add(fileData.get(row + partition * i).get(3).toString());
                 fnsO.add(fileData.get(row + partition * i).get(1).toString());
@@ -123,7 +121,7 @@ public class ShuffleColumnWithPartitionTest {
             for (int row = 0; row < subRows.size(); row++) {
                 // Partition runs well: email's original index is in the range of partition && Integration of data :
                 // email exists in the list
-                assertTrue(emailsO.contains(emailsS.get(row)));
+                Assert.assertTrue(emailsO.contains(emailsS.get(row)));
 
                 int ids = idsS.get(row);
                 int idO = ids - i * partition - 1;
@@ -131,22 +129,22 @@ public class ShuffleColumnWithPartitionTest {
                 // Partition runs well: the city and state do not move
                 String cityS = citisS.get(row);
                 String cityO = citisO.get(idO);
-                assertEquals(cityO, cityS);
+                Assert.assertEquals(cityO, cityS);
 
                 String stateS = statesS.get(row);
                 String stateO = statesO.get(idO);
-                assertEquals(stateO, stateS);
+                Assert.assertEquals(stateO, stateS);
 
                 // Integration of data : id and the first name remain its original correspondence
                 ;
                 String fnO = fnsO.get(idO);
-                assertEquals(fnO, fnsS.get(row));
+                Assert.assertEquals(fnO, fnsS.get(row));
 
                 // Shuffling quality : the id group (id and the first) and the email, at least one has changed its
                 // original position
                 String emailS = emailsS.get(row);
                 String emailO = emailsO.get(row);
-                assertTrue(ids != idO || !emailS.equals(emailO));
+                Assert.assertTrue(ids != idO || !emailS.equals(emailO));
             }
         }
     }

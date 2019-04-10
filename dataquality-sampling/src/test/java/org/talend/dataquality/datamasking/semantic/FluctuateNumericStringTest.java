@@ -1,10 +1,10 @@
 package org.talend.dataquality.datamasking.semantic;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.talend.dataquality.datamasking.FunctionMode;
+
+import static org.junit.Assert.assertEquals;
 
 public class FluctuateNumericStringTest {
 
@@ -17,10 +17,9 @@ public class FluctuateNumericStringTest {
 
     @Test
     public void consistentMasking() {
-        fns.setMaskingMode(FunctionMode.CONSISTENT);
         fns.setSeed("aSeed");
-        String result1 = fns.generateMaskedRow("123412341234");
-        String result2 = fns.generateMaskedRow("123412341234");
+        String result1 = fns.doGenerateMaskedField("123412341234", FunctionMode.CONSISTENT);
+        String result2 = fns.doGenerateMaskedField("123412341234", FunctionMode.CONSISTENT);
         assertEquals(result2, result1);
     }
 }
