@@ -1045,4 +1045,20 @@ public class ExtractFromDictionaryTest {
         String expected = "azer..";
         assertEquals(expected, dict.getMatches(tilde).get(0).getExactMatch());
     }
+
+    @Test
+    public void gender() {
+        DQCategory firstname = CategoryRegistryManager.getInstance()
+                .getCategoryMetadataByName(SemanticCategoryEnum.GENDER.getId());
+
+        ExtractFromDictionary efd = new ExtractFromDictionary(snapshot, firstname);
+
+        TokenizedString input = new TokenizedString("Male and Female");
+        List<MatchedPart> expected = new ArrayList<>();
+        expected.add(new MatchedPartDict(input, 0, 0, "Male"));
+        expected.add(new MatchedPartDict(input, 2, 2, "Female"));
+
+        List<MatchedPart> actual = efd.getMatches(input);
+        assertEquals(expected, actual);
+    }
 }
