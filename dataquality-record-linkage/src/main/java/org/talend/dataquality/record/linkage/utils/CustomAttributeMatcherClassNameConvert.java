@@ -33,6 +33,10 @@ public class CustomAttributeMatcherClassNameConvert {
 
     private static final Logger LOG = LoggerFactory.getLogger(CustomAttributeMatcherClassNameConvert.class);
 
+    private CustomAttributeMatcherClassNameConvert() {
+
+    }
+
     /**
      * DOC zshen Comment method "getClassName".
      * 
