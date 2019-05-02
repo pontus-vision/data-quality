@@ -25,6 +25,7 @@ import java.util.Map;
 import java.util.Random;
 
 import org.apache.commons.lang3.SerializationUtils;
+import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.MockitoAnnotations;
@@ -44,6 +45,8 @@ import org.talend.dataquality.semantic.statistics.SemanticQualityAnalyzer;
 
 @PrepareForTest({ CustomDictionaryHolder.class, CategoryRegistryManager.class })
 public class ValueDataMaskerTest extends CategoryRegistryManagerAbstract {
+
+    private static String mockedTenantID;
 
     private static final Map<String[], String> EXPECTED_MASKED_VALUES = new LinkedHashMap<String[], String>() {
 
@@ -353,9 +356,15 @@ public class ValueDataMaskerTest extends CategoryRegistryManagerAbstract {
         }
     };
 
+    @Before
+    public void setUp() {
+        mockedTenantID = this.getClass().getSimpleName() + "_CustomIndex";
+        MockitoAnnotations.initMocks(this);
+        mockWithTenant(mockedTenantID);
+    }
+
     /**
      * Test method for {@link org.talend.dataquality.datamasking.DataMasker#process(java.lang.Object, boolean)}.
-     *
      */
     @Test
     public void testProcess() {
@@ -424,23 +433,23 @@ public class ValueDataMaskerTest extends CategoryRegistryManagerAbstract {
 
     /**
      * Test method for {@link org.talend.dataquality.datamasking.DataMasker#process(java.lang.Object, boolean)}.
-     * 
+     *
      * @throws IllegalAccessException
      * @throws InstantiationException
      */
     @Test
     public void testProcessCustomCategory() {
-        String mockedTenantID = this.getClass().getSimpleName() + "_CustomIndex";
-        MockitoAnnotations.initMocks(this);
-        mockWithTenant(mockedTenantID);
+
+        CategoryRegistryManager.setLocalRegistryPath("target/test_crm");
+
         CategoryRegistryManager.setUsingLocalCategoryRegistry(true);
         CategoryRegistryManager instance = CategoryRegistryManager.getInstance();
         CustomDictionaryHolder holder = instance.getCustomDictionaryHolder(mockedTenantID);
 
         DQCategory answerCategory = holder.getMetadata().get(SemanticCategoryEnum.ANSWER.getTechnicalId());
         DQCategory categoryClone = SerializationUtils.clone(answerCategory); // make a clone instead of modifying the
-                                                                             // shared
-                                                                             // category metadata
+        // shared
+        // category metadata
         categoryClone.setId("NEW_CAT_ID");
         categoryClone.setName("NEW_CAT_NAME");
         categoryClone.setModified(true);
@@ -464,14 +473,11 @@ public class ValueDataMaskerTest extends CategoryRegistryManagerAbstract {
             String maskedValue = masker.maskValue(inputValue);
             assertEquals("Test failed on [" + inputValue + "]", EXPECTED_MASKED_VALUES_EXIST.get(input), maskedValue);
         }
-        holder.deleteDataDictDocuments(Collections.singletonList(newDoc));
+
     }
 
     @Test
     public void testProcessGenerateFromCompound() {
-        String mockedTenantID = this.getClass().getSimpleName() + "_CustomIndex";
-        MockitoAnnotations.initMocks(this);
-        mockWithTenant(mockedTenantID);
         CategoryRegistryManager.setUsingLocalCategoryRegistry(true);
 
         final ValueDataMasker masker = new ValueDataMasker(SemanticCategoryEnum.PHONE.name(), "string");
@@ -479,4 +485,5 @@ public class ValueDataMaskerTest extends CategoryRegistryManagerAbstract {
         String result = masker.maskValue("+33123456789");
         assertEquals("+32515165500", result);
     }
+
 }

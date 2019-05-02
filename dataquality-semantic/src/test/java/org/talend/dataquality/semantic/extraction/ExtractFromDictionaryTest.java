@@ -15,12 +15,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Matchers;
 import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.junit.MockitoJUnitRunner;
 import org.talend.dataquality.semantic.api.CategoryRegistryManager;
 import org.talend.dataquality.semantic.classifier.SemanticCategoryEnum;
 import org.talend.dataquality.semantic.index.DictionarySearcher;
-import org.talend.dataquality.semantic.index.Index;
 import org.talend.dataquality.semantic.index.LuceneIndex;
 import org.talend.dataquality.semantic.model.DQCategory;
 import org.talend.dataquality.semantic.snapshot.DictionarySnapshot;
@@ -49,8 +47,6 @@ public class ExtractFromDictionaryTest {
 
         when(mockIndex.getSearcher()).thenReturn(mockSearcher);
         when(mockSnapshot.getSharedDataDict()).thenReturn(mockIndex);
-        when(mockSnapshot.getCustomDataDict()).thenReturn(Mockito.mock(Index.class));
-        when(mockSnapshot.getKeyword()).thenReturn(Mockito.mock(Index.class));
         when(mockSnapshot.getMetadata()).thenReturn(metadata);
     }
 

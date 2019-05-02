@@ -195,6 +195,8 @@ public class CustomDictionaryHolderTest extends CategoryRegistryManagerAbstract 
 
         createRepos(stagingPath, prodPath, metadataStagingPath, dicoStagingPath, regexStagingPath);
 
+        when(new CustomRegexClassifierAccess(any(CustomDictionaryHolder.class))).thenReturn(customRegexClassifierAccess);
+
         holder.publishDirectory();
 
         verify(customMetadataIndexAccess, times(1)).copyStagingContent(anyString());
@@ -250,6 +252,8 @@ public class CustomDictionaryHolderTest extends CategoryRegistryManagerAbstract 
                 + REGEX_CATEGORIZER_FILE_NAME;
 
         createRepos(stagingPath, metadataStagingPath, dicoStagingPath, regexStagingPath);
+
+        when(new CustomRegexClassifierAccess(any(CustomDictionaryHolder.class))).thenReturn(customRegexClassifierAccess);
 
         holder.publishDirectory();
 
