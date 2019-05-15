@@ -194,7 +194,15 @@ public class PatternListGenerator {
         }
 
         if (!pattern.contains("yy") && pattern.contains("y")) {// only one "y" to represent year part
-            return;
+            if (FormatStyle.SHORT.equals(dateStyle)) {
+                pattern = pattern.replace("y", "yy");
+            } else {
+                pattern = pattern.replace("y", "yyyy");
+            }
+        }
+
+        if (pattern.contains("\u200F")) {
+            pattern = pattern.replace("\u200F", "");
         }
 
         if (!knownPatternList.contains(pattern)) {
