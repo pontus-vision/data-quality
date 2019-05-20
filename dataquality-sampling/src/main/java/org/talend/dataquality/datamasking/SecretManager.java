@@ -13,15 +13,9 @@
 package org.talend.dataquality.datamasking;
 
 import java.io.Serializable;
-import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.KeySpec;
-import java.util.Random;
 
 import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 
 import org.apache.commons.lang3.StringUtils;
@@ -56,8 +50,6 @@ public class SecretManager implements Serializable {
     private static final long serialVersionUID = -1884126359185258203L;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SecretManager.class);
-
-    private static final String KEY_GEN_ALGO = "PBKDF2WithHmacSHA256";
 
     /**
      * Factory for constructing the {@link #pseudoRandomFunction} and {@link #cryptoSpec}
@@ -114,7 +106,7 @@ public class SecretManager implements Serializable {
             if (StringUtils.isEmpty(password)) {
                 secret = generateRandomSecretKey(cryptoSpec.getKeyLength());
             } else {
-                secret = generateSecretKeyFromPassword(password);
+                secret = SecretGenerator.generateSecretKeyFromPassword(password, cryptoSpec.getKeyLength());
             }
 
             pseudoRandomFunction = cryptoFactory.getPrf(cryptoSpec, secret);
@@ -188,40 +180,4 @@ public class SecretManager implements Serializable {
         return new SecretKeySpec(randomKey, cryptoSpec.getKeyAlgorithm());
     }
 
-    /**
-     * This method generates a secret Key using the key-stretching algorithm PBKDF2 of
-     * <a href="https://docs.oracle.com/javase/7/docs/api/javax/crypto/package-summary.html">javax.crypto</a>.
-     * It is basically a hashing algorithm slow by design, in order to increase the time
-     * required for an attacker to try a lot of passwords in a bruteforce attack.
-     * <br>
-     * About the salt :
-     * <ul>
-     * <li>The salt is not secret, the use of Random is not critical.</li>
-     * <li>The salt is important to avoid rainbow table attacks.</li>
-     * <li>The salt should be generated with SecureRandom() in case the passwords are stored.</li>
-     * <li>In that case the salt should be stored in plaintext next to the password and a unique user identifier.</li>
-     * </ul>
-     * 
-     * @param password a password given as a {@code String}.
-     * @return a {@code SecretKey} securely generated.
-     */
-    private SecretKey generateSecretKeyFromPassword(String password) {
-        SecretKey secret = null;
-
-        try {
-            byte[] salt = new byte[cryptoSpec.getKeyLength()];
-            new Random(password.hashCode()).nextBytes(salt);
-            SecretKeyFactory factory = SecretKeyFactory.getInstance(KEY_GEN_ALGO);
-            KeySpec spec = new PBEKeySpec(password.toCharArray(), salt, 65536, cryptoSpec.getKeyLength() << 3);
-            secret = factory.generateSecret(spec);
-        } catch (InvalidKeySpecException | NoSuchAlgorithmException e) {
-            LOGGER.error("Invalid cipher or key algorithm set in " + cryptoSpec.getClass(), e);
-        }
-
-        if (secret == null) {
-            throw new IllegalArgumentException("This password can't be used for Format-Preserving Encryption.");
-        }
-
-        return secret;
-    }
 }
